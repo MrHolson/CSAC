@@ -451,8 +451,8 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = TRUE;
-$config['csrf_token_name'] = 'infinite_csrf_token';
-$config['csrf_cookie_name'] = 'infinite_csrf_cookie';
+$config['csrf_token_name'] = 'csac_csrf_token';
+$config['csrf_cookie_name'] = 'csac_csrf_cookie';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array('file_controller/upload_image_file', 'file_controller/upload_file');
