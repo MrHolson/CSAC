@@ -8,7 +8,7 @@
 	<title><?php echo xss_clean($title); ?> - <?php echo xss_clean($settings->site_title); ?></title>
 	<meta name="description" content="<?php echo xss_clean($description); ?>"/>
 	<meta name="keywords" content="<?php echo xss_clean($keywords); ?>"/>
-	<meta name="author" content="Codingest"/>
+	<meta name="author" content="Holduix"/>
 	<meta name="robots" content="all"/>
 	<meta name="revisit-after" content="1 Days"/>
 	<meta property="og:locale" content="<?php echo $this->selected_lang->language_code ?>"/>
