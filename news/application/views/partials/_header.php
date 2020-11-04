@@ -62,7 +62,20 @@ if ($language->id == $site_lang->id):?>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/font-icons/css/icons.min.css"/>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
-	<!-- Slider CSS -->
+	<link rel="stylesheet" href="../../assets/vendor/bootstrap/css/bootstrap.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="../../assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+	<link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="../../assets/vendor/custombox/dist/custombox.min.css">
+	<link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+	<link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+
+	<!-- CSS Space Template -->
+	<link rel="stylesheet" href="../../assets/css/theme.css">
+
+
 	<link href="<?php echo base_url(); ?>assets/vendor/slick/slick.min.css" rel="stylesheet"/>
 	<!-- Magnific Popup CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/magnific-popup.min.css" rel="stylesheet"/>
