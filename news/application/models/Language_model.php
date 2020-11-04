@@ -42,11 +42,11 @@ class Language_model extends CI_Model
         //add settings
         $settings = array(
             'lang_id' => $lang_id,
-            'application_name' => "Infinite",
-            'site_title' => "Infinite - Blog Magazine",
+            'application_name' => "CSAC",
+            'site_title' => "CSAC - Blog Magazine",
             'home_title' => "Index",
-            'site_description' => "Infinite - Blog Magazine",
-            'keywords' => "Infinite, Blog, Magazine",
+            'site_description' => "CSAC - Blog Magazine",
+            'keywords' => "CSAC, Blog, Magazine",
             'facebook_url' => "",
             'twitter_url' => "",
             'instagram_url' => "",
@@ -61,7 +61,7 @@ class Language_model extends CI_Model
             'contact_phone' => "",
             'cookies_warning' => 0,
             'cookies_warning_text' => "",
-            'copyright' => "Copyright © 2019 Infinite - All Rights Reserved.",
+            'copyright' => "Copyright © 2019 CSAC - All Rights Reserved.",
         );
 
         $this->db->insert('settings', $settings);
@@ -74,11 +74,11 @@ class Language_model extends CI_Model
     {
         //add pages
         $page = array(
-            'lang_id' => $lang_id, 'title' => "Gallery", 'slug' => "gallery", 'page_description' => "Infinite Gallery Page", 'page_keywords' => "infinite, gallery , page", 'is_custom' => 0, 'page_content' => "", 'page_order' => 2, 'page_active' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "header", 'parent_id' => 0
+            'lang_id' => $lang_id, 'title' => "Gallery", 'slug' => "gallery", 'page_description' => "CSAC Gallery Page", 'page_keywords' => "infinite, gallery , page", 'is_custom' => 0, 'page_content' => "", 'page_order' => 2, 'page_active' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "header", 'parent_id' => 0
         );
         $this->db->insert('pages', $page);
         $page = array(
-            'lang_id' => $lang_id, 'title' => "Contact", 'slug' => "contact", 'page_description' => "Infinite Contact Page", 'page_keywords' => "infinite, contact, page", 'is_custom' => 0, 'page_content' => "", 'page_order' => 0, 'page_active' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "header", 'parent_id' => 0
+            'lang_id' => $lang_id, 'title' => "Contact", 'slug' => "contact", 'page_description' => "CSAC Contact Page", 'page_keywords' => "infinite, contact, page", 'is_custom' => 0, 'page_content' => "", 'page_order' => 0, 'page_active' => 1, 'title_active' => 1, 'breadcrumb_active' => 1, 'right_column_active' => 0, 'need_auth' => 0, 'location' => "header", 'parent_id' => 0
         );
         $this->db->insert('pages', $page);
         $page = array(

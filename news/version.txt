@@ -1,4 +1,4 @@
-Infinite - Blog & Magazine Script 
+CSAC - Blog & Magazine Script 
 
 Version 3.9
 

@@ -18,7 +18,7 @@ $install_path = $root . "install";
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Infinite</title>
+        <title>CSAC</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <style>
             b, br {
@@ -110,7 +110,7 @@ $install_path = $root . "install";
 
     <div class="wrapper">
         <div class="center">
-            <h1 class="title">Infinite</h1>
+            <h1 class="title">CSAC</h1>
             <p class="version">Version 3.9</p>
             <a href="<?php echo $install_path; ?>" class="button">Install</a>
         </div>
