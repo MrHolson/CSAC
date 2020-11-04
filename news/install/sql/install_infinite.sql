@@ -223,7 +223,7 @@ CREATE TABLE `general_settings` (
 --
 
 INSERT INTO `general_settings` (`id`, `site_lang`, `layout`, `dark_mode`, `timezone`, `slider_active`, `site_color`, `show_pageviews`, `show_rss`, `logo_path`, `mobile_logo_path`, `favicon_path`, `facebook_app_id`, `facebook_app_secret`, `google_client_id`, `google_client_secret`, `google_analytics`, `google_adsense_code`, `mail_library`, `mail_protocol`, `mail_host`, `mail_port`, `mail_username`, `mail_password`, `mail_title`, `send_email_contact_messages`, `mail_options_account`, `primary_font`, `secondary_font`, `facebook_comment`, `pagination_per_page`, `menu_limit`, `multilingual_system`, `registration_system`, `comment_system`, `comment_approval_system`, `approve_posts_before_publishing`, `emoji_reactions`, `emoji_reactions_type`, `head_code`, `inf_key`, `purchase_code`, `recaptcha_site_key`, `recaptcha_secret_key`, `recaptcha_lang`, `cache_system`, `cache_refresh_time`, `refresh_cache_database_changes`, `text_editor_lang`) VALUES
-(1, 1, 'layout_2', 0, 'America/New_York', 1, 'default', 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'swift', 'smtp', NULL, '587', NULL, NULL, 'Infinite', 0, NULL, 'open_sans', 'roboto', NULL, 12, 7, 1, 1, 1, 1, 1, 1, 'gif', NULL, '', '', NULL, NULL, 'en', 0, 1800, 0, 'en');
+(1, 1, 'layout_2', 0, 'America/New_York', 1, 'default', 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'swift', 'smtp', NULL, '587', NULL, NULL, 'CSAC', 0, NULL, 'open_sans', 'roboto', NULL, 12, 7, 1, 1, 1, 1, 1, 1, 'gif', NULL, '', '', NULL, NULL, 'en', 0, 1800, 0, 'en');
 
 -- --------------------------------------------------------
 
@@ -455,7 +455,7 @@ CREATE TABLE `reading_lists` (
 CREATE TABLE `settings` (
   `id` int(11) NOT NULL,
   `lang_id` tinyint(4) DEFAULT '1',
-  `application_name` varchar(255) DEFAULT 'Infinite',
+  `application_name` varchar(255) DEFAULT 'CSAC',
   `site_title` varchar(255) DEFAULT NULL,
   `home_title` varchar(255) DEFAULT NULL,
   `site_description` varchar(500) DEFAULT NULL,
@@ -472,7 +472,7 @@ CREATE TABLE `settings` (
   `contact_address` varchar(500) DEFAULT NULL,
   `contact_email` varchar(255) DEFAULT NULL,
   `contact_phone` varchar(255) DEFAULT NULL,
-  `copyright` varchar(500) DEFAULT 'Copyright © 2018 Infinite - All Rights Reserved.',
+  `copyright` varchar(500) DEFAULT 'Copyright © 2018 CSAC - All Rights Reserved.',
   `cookies_warning` tinyint(1) DEFAULT '0',
   `cookies_warning_text` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -482,7 +482,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `lang_id`, `application_name`, `site_title`, `home_title`, `site_description`, `keywords`, `facebook_url`, `twitter_url`, `instagram_url`, `pinterest_url`, `linkedin_url`, `vk_url`, `optional_url_button_name`, `about_footer`, `contact_text`, `contact_address`, `contact_email`, `contact_phone`, `copyright`, `cookies_warning`, `cookies_warning_text`) VALUES
-(1, 1, 'Infinite', 'Infinite - Blog Magazine Script', 'Index', 'Infinite - Blog Magazine Script', 'Infinite, Blog, Magazine', NULL, NULL, NULL, NULL, NULL, NULL, 'Click Here To See More', NULL, NULL, NULL, NULL, NULL, 'Copyright © 2019 Infinite - All Rights Reserved.', 0, NULL);
+(1, 1, 'CSAC', 'CSAC - Blog Magazine Script', 'Index', 'CSAC - Blog Magazine Script', 'CSAC, Blog, Magazine', NULL, NULL, NULL, NULL, NULL, NULL, 'Click Here To See More', NULL, NULL, NULL, NULL, NULL, 'Copyright © 2019 CSAC - All Rights Reserved.', 0, NULL);
 
 -- --------------------------------------------------------
 

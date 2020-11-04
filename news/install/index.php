@@ -42,7 +42,7 @@ if (!isset($license_code)) {
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Infinite - Installer</title>
+	<title>CSAC - Installer</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -59,7 +59,7 @@ if (!isset($license_code)) {
 
 			<div class="row">
 				<div class="col-sm-12 logo-cnt">
-					<h1>Infinite</h1>
+					<h1>CSAC</h1>
 					<p>Welcome to the Installer</p>
 				</div>
 			</div>

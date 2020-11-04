@@ -67,7 +67,7 @@ if (isset($_POST["btn_install"])) {
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Infinite - Installer</title>
+	<title>CSAC - Installer</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
@@ -83,7 +83,7 @@ if (isset($_POST["btn_install"])) {
 
 			<div class="row">
 				<div class="col-sm-12 logo-cnt">
-					<h1>Infinite</h1>
+					<h1>CSAC</h1>
 					<p>Welcome to the Installer</p>
 				</div>
 			</div>
