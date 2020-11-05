@@ -121,9 +121,9 @@ if ($language->id == $site_lang->id):?>
           <!-- Logo -->
           <div class="u-header__navbar-brand-wrapper">
             <a class="navbar-brand u-header__navbar-brand" href="index.html" aria-label="Space">
-              <img class="u-header__navbar-brand-default" src="../../assets/svg/logos/logo-white.svg" alt="Logo">
-              <img class="u-header__navbar-brand-on-scroll" src="../../assets/svg/logos/logo.svg" alt="Logo">
-              <img class="u-header__navbar-brand-mobile" src="../../assets/svg/logos/logo-short.svg" alt="Logo">
+              <img class="u-header__navbar-brand-default" src="<?php echo base_url(); ?>themes/svg/logos/logo-white.svg" alt="Logo">
+              <img class="u-header__navbar-brand-on-scroll" src="<?php echo base_url(); ?>themes/svg/logos/logo.svg" alt="Logo">
+              <img class="u-header__navbar-brand-mobile" src="<?php echo base_url(); ?>themes/svg/logos/logo-short.svg" alt="Logo">
             </a>
           </div>
           <!-- End Logo -->
