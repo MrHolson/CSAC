@@ -58,30 +58,7 @@
 	<?php endif; ?>
 		<?php echo $primary_font_url; ?>
 		<?php echo $secondary_font_url; ?>
-		<!-- Icons -->
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/font-icons/css/icons.min.css"/>
-		<!-- Bootstrap CSS 
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
-		-->
-		<!-- Slider CSS -->
-		<link href="<?php echo base_url(); ?>assets/vendor/slick/slick.min.css" rel="stylesheet"/>
-		<!-- Magnific Popup CSS -->
-		<link href="<?php echo base_url(); ?>assets/css/magnific-popup.min.css" rel="stylesheet"/>
-		<!-- Style CSS -->
-		<link href="<?php echo base_url(); ?>assets/css/style3.9.min.css" rel="stylesheet"/>
-	<?php if ($this->general_settings->dark_mode == 1): ?>
-		<link href="<?php echo base_url(); ?>assets/css/dark.min.css" rel="stylesheet"/>
-	<?php endif; ?>
-		<!-- Color CSS -->
-	<?php if ($general_settings->site_color == '') : ?>
-		<link href="<?php echo base_url(); ?>assets/css/colors/default.min.css" rel="stylesheet"/>
-	<?php else : ?>
-		<link href="<?php echo base_url(); ?>assets/css/colors/<?php echo html_escape($general_settings->site_color); ?>.min.css" rel="stylesheet"/>
-	<?php endif; ?>
-	<?php if ($selected_lang->text_direction == "rtl"): ?>
-		<!-- RTL -->
-		<link href="<?php echo base_url(); ?>assets/css/rtl.min.css" rel="stylesheet"/>
-	<?php endif; ?>
+		
 		<?php $this->load->view('partials/_font_style'); ?>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -89,22 +66,6 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<!-- Jquery 
-		<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
-				-->
-
-		<script src="<?php echo base_url(); ?>themes/scripts/jquery.min.js"></script>
-   		 <link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/bootstrap/css/bootstrap.css">
-		<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/image-box.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/animations.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/components.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/flexslider/flexslider.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/magnific-popup.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/php/contact-form.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/skin.css">
 
 		<?php echo $general_settings->head_code; ?>
 	<?php if ($selected_lang->text_direction == "rtl"): ?>
@@ -113,6 +74,7 @@
 		<script>var rtl = false;</script>
 	<?php endif; ?>
 		<script>var csfr_token_name = '<?php echo $this->security->get_csrf_token_name(); ?>';var csfr_cookie_name = '<?php echo $this->config->item('csrf_cookie_name'); ?>';var base_url = '<?php echo base_url(); ?>';var is_recaptcha_enabled = false;var lang_folder = '<?php echo $this->selected_lang->folder_name; ?>';<?php if ($recaptcha_status == true): ?>is_recaptcha_enabled = true;<?php endif; ?></script>
+	
 	</head>
 	<body>
 
@@ -146,8 +108,8 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">
-                            <img class="logo-default" src="../images/logo.png" alt="logo" />
-                            <img class="logo-retina" src="../images/logo-retina.png" alt="logo" />
+                            <img class="logo-default" src="images/logo.png" alt="logo" />
+                            <img class="logo-retina" src="images/logo-retina.png" alt="logo" />
                         </a>
                     </div>
                     <div class="collapse navbar-collapse">
