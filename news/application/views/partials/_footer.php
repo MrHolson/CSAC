@@ -143,7 +143,7 @@
 
 
   <!-- JS Global Compulsory -->
-  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+
   <script src="<?php echo base_url(); ?>themes/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
   <script src="<?php echo base_url(); ?>themes/vendor/popper.js/dist/umd/popper.min.js"></script>
   <script src="<?php echo base_url(); ?>themes/vendor/bootstrap/bootstrap.min.js"></script>

@@ -101,8 +101,8 @@ if ($language->id == $site_lang->id):?>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<!-- Jquery -->
-	<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
+	<!-- Jquery --> 
+	<script src="<?php echo base_url(); ?>themes/vendor/jquery/dist/jquery.min.js"></script>
 	<?php echo $general_settings->head_code; ?>
 <?php if ($selected_lang->text_direction == "rtl"): ?>
     <script>var rtl = true;</script>
