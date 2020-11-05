@@ -63,23 +63,12 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
 
-		<script src="<?php echo base_url(); ?>/themes/scripts/script.js"></script>
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/style.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/css/content-box.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/css/image-box.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/css/animations.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/css/components.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/scripts/flexslider/flexslider.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/scripts/magnific-popup.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/scripts/php/contact-form.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/themes/skin.css">
-
 		<!-- Slider CSS -->
 		<link href="<?php echo base_url(); ?>assets/vendor/slick/slick.min.css" rel="stylesheet"/>
 		<!-- Magnific Popup CSS -->
 		<link href="<?php echo base_url(); ?>assets/css/magnific-popup.min.css" rel="stylesheet"/>
 		<!-- Style CSS -->
-		<link href="<?php echo base_url(); ?>assets/css/style-3.9.min.css" rel="stylesheet"/>
+		<link href="<?php echo base_url(); ?>assets/css/style3.9.min.css" rel="stylesheet"/>
 	<?php if ($this->general_settings->dark_mode == 1): ?>
 		<link href="<?php echo base_url(); ?>assets/css/dark.min.css" rel="stylesheet"/>
 	<?php endif; ?>
@@ -100,8 +89,23 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<!-- Jquery -->
+		<!-- Jquery 
 		<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
+				-->
+
+		<script src="<?php echo base_url(); ?>themes/scripts/jquery.min.js"></script>
+   		 <link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/bootstrap/css/bootstrap.css">
+		<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/image-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/animations.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/components.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/flexslider/flexslider.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/magnific-popup.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/php/contact-form.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/skin.css">
+
 		<?php echo $general_settings->head_code; ?>
 	<?php if ($selected_lang->text_direction == "rtl"): ?>
 		<script>var rtl = true;</script>
@@ -411,41 +415,10 @@
                 </div>
             </div>
         </div>
-    </header>
+	</header>
     	
 		<!-- header -->
-		<header id="header">
-			<nav class="navbar navbar-inverse" role="banner">
-				<div class="container nav-container">
-					<div class="navbar-header logo-cnt">
-						<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
-							<img src="<?php echo get_logo($general_settings); ?>" alt="logo">
-						</a>
-					</div>
-					<?php
-					$active_page = uri_string();
-					if ($general_settings->site_lang != $selected_lang->id) {
-						$active_page = $this->uri->segment(2);
-					}
 
-					$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
-				</div>
-				<div class="mobile-nav-container">
-					<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
-				</div>
-			</nav><!--/nav-->
-			<!--search modal-->
-			<div class="modal-search">
-				<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
-				<div class="container">
-					<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
-						placeholder="<?php echo html_escape(trans("search_exp")); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
-					<i class="icon-close s-close"></i>
-				</div>
-				<?php echo form_close(); ?>
-			</div><!-- /.modal-search -->
-		</header>
-		<!-- /.header-->
 		<div id="overlay_bg" class="overlay-bg"></div>
 
 
