@@ -4396,7 +4396,6 @@ Responsive CSS Fixes
 
 @media (max-width: 991px) {
     #header {
-        height: auto;
         box-shadow: none !important;
         border: 0 !important;
     }
