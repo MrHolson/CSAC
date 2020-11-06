@@ -8,9 +8,9 @@
 		<title><?php echo xss_clean($title); ?> - <?php echo xss_clean($settings->site_title); ?></title>
 		<meta name="description" content="<?php echo xss_clean($description); ?>"/>
 		<meta name="keywords" content="<?php echo xss_clean($keywords); ?>"/>
-		<meta name="author" content="HOLDUIX"/>
-		<meta name="robots" content="all"/>
-		<meta name="revisit-after" content="1 Days"/>
+		<meta name="author" content="Holduix"/>
+		<meta name="robots" content="all" />
+		<meta name="revisit-after" content="1 Days" />
 		<meta property="og:locale" content="<?php echo $this->selected_lang->language_code ?>"/>
 		<meta property="og:site_name" content="<?php echo $settings->application_name; ?>"/>
 	<?php if (isset($page_type)): ?>
@@ -59,16 +59,16 @@
 		<?php echo $primary_font_url; ?>
 		<?php echo $secondary_font_url; ?>
 
-			<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
-			<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/image-box.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/animations.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/components.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/flexslider/flexslider.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/php/contact-form.css">
-			<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/skin.css">	
+		<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
+		<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/image-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/animations.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/components.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/flexslider/flexslider.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/php/contact-form.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/skin.css">	
 		
 		<!-- Icons -->
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/font-icons/css/icons.min.css"/>

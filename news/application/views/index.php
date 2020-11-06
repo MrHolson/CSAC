@@ -83,7 +83,147 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="section-empty">
+        <div class="container content">
+            <div class="flexslider carousel outer-navs" data-options="minWidth:200,itemMargin:30,numItems:4,controlNav:false">
+                <ul class="slides">
+                    <li>
+                        <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                            <i class="fa fa-comments-o icon circle anima"></i>
+                            <h3>Consulting</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                            <i class="fa fa-clone icon circle anima"></i>
+                            <h3>Architecture</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                            <i class="fa fa-skyatlas icon circle anima"></i>
+                            <h3>Green buildings</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                            <i class="fa fa-user-o icon circle anima"></i>
+                            <h3>Flat share</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                            <i class="fa fa-plus-square-o icon circle anima"></i>
+                            <h3>Urban design</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr class="space" />
+            <div class="row vefrtical-row">
+                <div class="col-md-4">
+                    <div class="title-base  text-left">
+                        <hr />
+                        <h2>Our services</h2>
+                        <p>Take a look inside</p>
+                    </div>
+                    <p class="text-color">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillumo.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris ninto.
+                    </p>
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut
+                        laoreet ac, aliquam sit amet justo nunc tempor, metus velo.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididit doloructus placerat scelerisque euismod,
+                        iaculiit dolor, luctus placerat scelerisque euismod, iaculiunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-items">
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3>Financial consulting</h3>
+                                    <p>Lorem ipsum dolor sit amet consecteture</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span>Free</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3>Green constructions</h3>
+                                    <p>Aute irure dolor in reprehenderit</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span>Eco</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3>Future technologies</h3>
+                                    <p>Aute irure dolor in reprehenderit</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span>Future</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3>Buildings</h3>
+                                    <p>Nostrud exercitation ullamco laboris nisio</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span>Promo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <a href="#" class="btn btn-lg"><i class="fa fa-angle-right"></i>View services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    	
+	
+
+
 <?php if ($layout == "layout_1" || $layout == "layout_2" || $layout == "layout_3"):
 	if (!empty($this->slider_posts)):?>
 		<!-- Section: slider -->
