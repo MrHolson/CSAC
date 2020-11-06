@@ -211,32 +211,32 @@ endif; ?>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_5.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_5.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_6.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_6.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_7.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_7.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_8.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_8.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_1.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_1.png" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="img-box" href="#">
-                            <img src="../images/logos/logo_2.png" alt="">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_2.png" alt="">
                         </a>
                     </li>
                 </ul>
