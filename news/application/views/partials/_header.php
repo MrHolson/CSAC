@@ -112,7 +112,7 @@
 	<body>
 	<div id="preloader"></div>
 	<!-- header -->
-	<header id="header" class="fixed-top scroll-change">
+	<header id="header" class="fixed-top scroll-change" data-menu-anima="fade-in">
 		<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">
 			<div class="navbar-mini scroll-hide">
 					<div class="container">
@@ -120,7 +120,7 @@
 							<span><i class="fa fa-phone"></i>1-800-405-377</span>
 							<hr />
 							<span><i class="fa fa-envelope"></i>info@company.com</span>
-							<hr />
+								<hr />
 							<span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
 							<hr />
 							<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>

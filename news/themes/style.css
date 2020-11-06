@@ -855,7 +855,7 @@ header .btn-default, header .btn, header .anima-button.circle-button, header .in
         background-color: #e6e6e6;
     }
 
-.navbar-default .navbar-nav > li > a, .mega-menu h5 {
+.navbar-inverse .navbar-nav > li > a, .mega-menu h5 {
     color: #444;
 }
 
@@ -899,7 +899,7 @@ header.hamburger-header {
     }
 }
 
-.navbar-default .navbar-nav > li > a .caret {
+.navbar-inverse .navbar-nav > li > a .caret {
     margin-left: 5px;
 }
 
@@ -1020,7 +1020,7 @@ div.full-width-menu .inner .dropdown-submenu:hover > a:after, div.full-width-men
     height: 52px;
 }
 
-.navbar-nav > li:hover > a, .navbar-default .navbar-nav > li > a:hover, .dropdown > li:hover > a, .dropdown-menu ul > li:hover > a, .subline-bar li:hover, .sidebar-nav ul a:hover, .panel-item > span:hover, .sidebar-nav .panel-item > span:hover, .bg-transparent li.active {
+.navbar-nav > li:hover > a, .navbar-inverse .navbar-nav > li > a:hover, .dropdown > li:hover > a, .dropdown-menu ul > li:hover > a, .subline-bar li:hover, .sidebar-nav ul a:hover, .panel-item > span:hover, .sidebar-nav .panel-item > span:hover, .bg-transparent li.active {
     color: #171717;
     background: rgba(199,199,199,0.15);
 }
@@ -1432,7 +1432,7 @@ header.menu-transparent.scroll-css > .navbar {
     background-color: rgba(0,0,0,0) !important;
 }
 
-    .menu-transparent.bg-transparent .navbar-nav > li > a:hover, .bg-transparent .navbar-nav .active > a, header.menu-transparent .navbar-default {
+    .menu-transparent.bg-transparent .navbar-nav > li > a:hover, .bg-transparent .navbar-nav .active > a, header.menu-transparent .navbar-inverse {
         background-color: rgba(0,0,0,0) !important;
     }
 
@@ -1440,7 +1440,7 @@ header.menu-transparent.scroll-css > .navbar {
     border-radius: 0;
 }
 
-header.bg-transparent .navbar-default .navbar-nav > li > a {
+header.bg-transparent .navbar-inverse .navbar-nav > li > a {
     transform: translateY(0px);
     transition: transform .3s;
 }
@@ -1451,7 +1451,7 @@ header.bg-transparent .navbar-default .navbar-nav > li > a {
 MINIMAL DESIGN
 ------------------------------
 */
-.nav.ms-minimal, .nav.ms-minimal li:hover, .navbar-default .navbar-nav.ms-minimal > .open > a, .navbar-default .navbar-nav.ms-minimal > .open > a:hover, .navbar-default.ms-minimal .navbar-nav > .open > a:focus {
+.nav.ms-minimal, .nav.ms-minimal li:hover, .navbar-inverse .navbar-nav.ms-minimal > .open > a, .navbar-inverse .navbar-nav.ms-minimal > .open > a:hover, .navbar-inverse.ms-minimal .navbar-nav > .open > a:focus {
     background: none !important;
     border: none !important;
 }
@@ -6016,7 +6016,7 @@ button.navbar-toggle {
     float: right;
 }
 
-.navbar-default form {
+.navbar-inverse form {
     border: none;
 }
 
