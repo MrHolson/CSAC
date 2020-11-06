@@ -112,8 +112,8 @@
 	<body>
 	<div id="preloader"></div>
 	<!-- header -->
-	<header id="header" class="fixed-top scroll-change" data-menu-anima="fade-in">
-		<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">
+	<header class="fixed-top scroll-change" data-menu-anima="fade-in">
+		<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="navigation">
 			<div class="navbar-mini scroll-hide">
 					<div class="container">
 						<div class="nav navbar-nav navbar-left">
