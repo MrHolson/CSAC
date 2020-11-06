@@ -955,7 +955,6 @@ header > .navbar {
     margin-bottom: 0;
     border: none;
     border-bottom: 1px solid #E4E4E4;
-    transform: translate3d(0px, 0px, 0px);
 }
 
 .navbar-main, .nav.inner {

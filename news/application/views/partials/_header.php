@@ -59,8 +59,16 @@ if ($language->id == $site_lang->id):?>
     <?php echo $primary_font_url; ?>
 	<?php echo $secondary_font_url; ?>
 	
-	<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/skin.css">	
-	<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
+		<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/image-box.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/animations.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/components.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/flexslider/flexslider.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/scripts/php/contact-form.css">
+		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/skin.css">	
+	
 	<!-- Icons -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/font-icons/css/icons.min.css"/>
 	<!-- Bootstrap CSS -->
@@ -70,7 +78,7 @@ if ($language->id == $site_lang->id):?>
 	<!-- Magnific Popup CSS -->
 	<link href="<?php echo base_url(); ?>assets/css/magnific-popup.min.css" rel="stylesheet"/>
 	<!-- Style CSS -->
-	<link href="<?php echo base_url(); ?>assets/css/style-3.9.min.css" rel="stylesheet"/>
+	<link href="<?php echo base_url(); ?>assets/css/style-3.9.css" rel="stylesheet"/>
 <?php if ($this->general_settings->dark_mode == 1): ?>
     <link href="<?php echo base_url(); ?>assets/css/dark.min.css" rel="stylesheet"/>
 <?php endif; ?>
@@ -102,25 +110,51 @@ if ($language->id == $site_lang->id):?>
 	<script>var csfr_token_name = '<?php echo $this->security->get_csrf_token_name(); ?>';var csfr_cookie_name = '<?php echo $this->config->item('csrf_cookie_name'); ?>';var base_url = '<?php echo base_url(); ?>';var is_recaptcha_enabled = false;var lang_folder = '<?php echo $this->selected_lang->folder_name; ?>';<?php if ($recaptcha_status == true): ?>is_recaptcha_enabled = true;<?php endif; ?></script>
 </head>
 <body>
-<!-- header -->
-<header id="header">
-	<nav class="navbar navbar-inverse" role="banner">
-		<div class="container nav-container">
-			<div class="navbar-header logo-cnt">
-				<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
-					<img src="<?php echo get_logo($general_settings); ?>" alt="logo">
-				</a>
-			</div>
-			<?php
-			$active_page = uri_string();
-			if ($general_settings->site_lang != $selected_lang->id) {
-				$active_page = $this->uri->segment(2);
-			}
 
-			$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
-		</div>
-		<div class="mobile-nav-container">
-			<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
+<!-- header -->
+<header id="header" class="fixed-top scroll-change">
+	<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">
+		<div class="navbar-mini scroll-hide">
+                <div class="container">
+                    <div class="nav navbar-nav navbar-left">
+                        <span><i class="fa fa-phone"></i>1-800-405-377</span>
+                        <hr />
+                        <span><i class="fa fa-envelope"></i>info@company.com</span>
+                        <hr />
+                        <span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
+                        <hr />
+                        <span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>
+                    </div>
+                    <div class="nav navbar-nav navbar-right">
+                        <div class="minisocial-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+		</div>	
+		<div class="navbar navbar-main">	
+			<div class="container nav-container">
+
+				<div class="navbar-header logo-cnt">
+					<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
+						<img class="logo-default" src="<?php echo get_logo($general_settings); ?>" alt="logo">
+						<img class="logo-retina" src="<?php echo get_logo($general_settings); ?>" alt="logo">
+					</a>
+				</div>
+				<?php
+				$active_page = uri_string();
+				if ($general_settings->site_lang != $selected_lang->id) {
+					$active_page = $this->uri->segment(2);
+				}
+
+				$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
+			</div>
+			<div class="mobile-nav-container">
+				<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
+			</div>
 		</div>
 	</nav><!--/nav-->
 	<!--search modal-->
