@@ -4407,7 +4407,7 @@ Responsive CSS Fixes
     }
 
     .navbar-header {
-        display: none;
+      /*  display: none; */
     }
 
     .nav-mobile-header {
@@ -4424,7 +4424,7 @@ Responsive CSS Fixes
     }
 
     .navbar-collapse.collapse {
-        display: none !important;
+        display: none !important; 
     }
 
     .navbar-collapse.collapse.in {

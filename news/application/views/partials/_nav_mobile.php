@@ -27,9 +27,9 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<ul class="navbar-nav">
-					<!--<li class="nav-item">
+					<li class="nav-item">
 						<a href="<?php echo lang_base_url(); ?>" class="nav-link"><?php echo trans("home"); ?></a>
-					</li>-->
+					</li>
 
 					<?php foreach ($main_menu as $menu_item):
 						if ($menu_item->item_location == "header"):
