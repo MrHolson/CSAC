@@ -1,9 +1,90 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
-
-
 <h1 class="title-index"><?php echo html_escape($home_title); ?></h1>
-
+	
+	<div class="section-empty no-paddings">
+        <div class="section-slider row-18 white">
+            <div class="flexslider advanced-slider slider visible-dir-nav" data-options="animation:fade">
+                <ul class="slides">
+                    <li data-slider-anima="fade-left" data-time="1000">
+                        <div class="section-slide">
+                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            </div>
+                            <div class="container">
+                                <div class="container-middle">
+                                    <div class="container-inner text-left">
+                                        <div class="row">
+                                            <div class="col-md-8 anima">
+                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
+                                                <hr class="space s" />
+                                                <p class="width-500">
+                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
+                                                    I can also be a beach bum. I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                                    Check our awesome servive and learn more of this.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr class="space visible-sm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-slider-anima="fade-left" data-time="1000">
+                        <div class="section-slide">
+                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            </div>
+                            <div class="container">
+                                <div class="container-middle">
+                                    <div class="container-inner text-left">
+                                        <div class="row">
+                                            <div class="col-md-8 anima">
+                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
+                                                <hr class="space s" />
+                                                <p class="width-500">
+                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
+                                                    I can also be a beach bum. I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                                    Check our awesome servive and learn more of this.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr class="space visible-sm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-slider-anima="fade-left" data-time="1000">
+                        <div class="section-slide">
+                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            </div>
+                            <div class="container">
+                                <div class="container-middle">
+                                    <div class="container-inner text-left">
+                                        <div class="row">
+                                            <div class="col-md-8 anima">
+                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
+                                                <hr class="space s" />
+                                                <p class="width-500">
+                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
+                                                    I can also be a beach bum. I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                                    Check our awesome servive and learn more of this.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr class="space visible-sm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
 <?php if ($layout == "layout_1" || $layout == "layout_2" || $layout == "layout_3"):
 	if (!empty($this->slider_posts)):?>
 		<!-- Section: slider -->

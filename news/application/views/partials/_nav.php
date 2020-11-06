@@ -45,6 +45,7 @@
 			endforeach; ?>
 
 			<?php
+			/*
 			if ($total_items > $menu_limit): ?>
 				<li class="dropdown">
 					<a class="dropdown-toggle dropdown-more" data-toggle="dropdown" href="#">
@@ -84,7 +85,7 @@
 						endforeach; ?>
 					</ul>
 				</li>
-			<?php endif; ?>
+			<?php endif; */ ?>
 		</ul>
 
 		<ul class="nav navbar-nav nav-right">
