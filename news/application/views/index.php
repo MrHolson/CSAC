@@ -1,6 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<h1 class="title-index"><?php echo html_escape($home_title); ?></h1>
-	
+
 	<div class="section-empty no-paddings">
         <div class="section-slider row-21 white">
             <div class="flexslider advanced-slider slider visible-dir-nav" data-options="animation:fade">

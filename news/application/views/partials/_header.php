@@ -161,3 +161,14 @@
 
 	</header>
 	<!-- /.header-->
+	<h1 class="title-index"><?php echo html_escape($home_title); ?></h1>
+	<div class="modal-search">
+			<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
+			<div class="container">
+				<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
+					placeholder="<?php echo html_escape(trans("search_exp")); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
+				<i class="icon-close s-close"></i>
+			</div>
+			<?php echo form_close(); ?>
+		</div><!-- /.modal-search -->
+	<div id="overlay_bg" class="overlay-bg"></div>
