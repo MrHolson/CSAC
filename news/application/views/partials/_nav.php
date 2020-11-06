@@ -4,11 +4,7 @@
 <div class="nav-desktop">
 	<div class="collapse navbar-collapse navbar-left">
 		<ul class="nav navbar-nav">
-			<li class="<?php echo ($active_page == 'index' || $active_page == "") ? 'active' : ''; ?>">
-				<a href="<?php echo lang_base_url(); ?>">
-					<?php echo trans("home"); ?>
-				</a>
-			</li>
+
 			<?php
 			$total_items = 1;
 			$i = 1;

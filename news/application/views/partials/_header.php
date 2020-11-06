@@ -110,7 +110,7 @@ if ($language->id == $site_lang->id):?>
 	<script>var csfr_token_name = '<?php echo $this->security->get_csrf_token_name(); ?>';var csfr_cookie_name = '<?php echo $this->config->item('csrf_cookie_name'); ?>';var base_url = '<?php echo base_url(); ?>';var is_recaptcha_enabled = false;var lang_folder = '<?php echo $this->selected_lang->folder_name; ?>';<?php if ($recaptcha_status == true): ?>is_recaptcha_enabled = true;<?php endif; ?></script>
 </head>
 <body>
-
+<div id="preloader"></div>
 <!-- header -->
 <header id="header" class="fixed-top scroll-change">
 	<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">

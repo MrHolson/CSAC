@@ -835,9 +835,12 @@ img {
 }
 
 #main {
+    
     min-height: 760px
 }
-
+section> #main{
+    margin-top:110px;
+}
 /* search box */
 .search-icon {
     font-size: 15px !important;
