@@ -122,8 +122,8 @@
 							<span><i class="fa fa-envelope"></i>info@company.com</span>
 								<hr />
 							<span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
-							<hr />
-							<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>
+							<!--<hr />
+							<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>-->
 						</div>
 						<div class="nav navbar-nav navbar-right">
 							<div class="minisocial-group">
@@ -158,11 +158,10 @@
 			</div>
 		</nav><!--/nav-->
 		<!--search modal-->
-
 	</header>
 	<!-- /.header-->
-	<h1 class="title-index"><?php echo html_escape($home_title); ?></h1>
-	<div class="modal-search">
+	<h1 class="title-index"><?php echo html_escape($title); ?></h1>
+		<div class="modal-search">
 			<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
 			<div class="container">
 				<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
@@ -171,4 +170,4 @@
 			</div>
 			<?php echo form_close(); ?>
 		</div><!-- /.modal-search -->
-	<div id="overlay_bg" class="overlay-bg"></div>
+		<div id="overlay_bg" class="overlay-bg"></div>
