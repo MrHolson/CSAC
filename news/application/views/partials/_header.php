@@ -58,7 +58,8 @@ if ($language->id == $site_lang->id):?>
 <?php endif; ?>
     <?php echo $primary_font_url; ?>
 	<?php echo $secondary_font_url; ?>
-	
+
+		<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
 		<script src="<?php echo base_url(); ?>themes/scripts/script.js"></script>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/style.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>themes/css/content-box.css">
@@ -100,7 +101,6 @@ if ($language->id == $site_lang->id):?>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	<!-- Jquery -->
-	<script src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.min.js"></script>
 	<?php echo $general_settings->head_code; ?>
 <?php if ($selected_lang->text_direction == "rtl"): ?>
     <script>var rtl = true;</script>
@@ -135,7 +135,7 @@ if ($language->id == $site_lang->id):?>
                     </div>
                 </div>
 		</div>	
-		<div class="navbar navbar-main">	
+		<div class="navbar navbar-main" style="border:0">	
 			<div class="container nav-container">
 
 				<div class="navbar-header logo-cnt">
