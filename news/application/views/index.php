@@ -6,7 +6,7 @@
                 <ul class="slides">
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
@@ -31,7 +31,7 @@
                     </li>
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
@@ -56,7 +56,7 @@
                     </li>
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('../images/bg-7.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
