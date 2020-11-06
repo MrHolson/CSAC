@@ -89,3 +89,158 @@ endif; ?>
 	</div>
 </section>
 <!-- /.Section: main -->
+<div class="section-bg-color">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                <a class="img-box">
+                                    <img class="anima" src="<?php echo base_url(); ?>images/users/user-16.jpg" alt="" />
+                                </a>
+                                <div class="content-box">
+                                    <h2>Jessica Larry</h2>
+                                    <h4>Founder</h4>
+                                    <hr class="e" />
+                                    <div class="btn-group social-group">
+                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                                    </div>
+                                    <p>Nibh atque suspendisse netus veritatis eveniet pariaturo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                <a class="img-box">
+                                    <img class="anima" src="<?php echo base_url(); ?>images/users/user-17.jpg" alt="" />
+                                </a>
+                                <div class="content-box">
+                                    <h2>Casey Neistat</h2>
+                                    <h4>Project manager</h4>
+                                    <hr class="e" />
+                                    <div class="btn-group social-group">
+                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                    <p>Nibh atque suspendisse netus veritatis eveniet pariaturo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                <a class="img-box">
+                                    <img class="anima" src="<?php echo base_url(); ?>images/users/user-15.jpg" alt="" />
+                                </a>
+                                <div class="content-box">
+                                    <h2>Sarah Rodrigo</h2>
+                                    <h4>Administration</h4>
+                                    <hr class="e" />
+                                    <div class="btn-group social-group">
+                                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                    <p>Nibh atque suspendisse netus veritatis eveniet pariaturo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="title-base text-left">
+                        <hr />
+                        <h2>Funny people</h2>
+                        <p>People behind the company</p>
+                    </div>
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elito
+                        vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus velo atque suspendisse netus verita.
+                    </p>
+                    <hr class="space s" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="icon-box icon-box-top-bottom counter-box-icon text-left">
+                                <div class="icon-box-cell">
+                                    <b><label class="counter text-l" data-speed="2000" data-to="60">60</label></b>
+                                    <p class="text-s">Team memebers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="icon-box icon-box-top-bottom counter-box-icon text-left">
+                                <div class="icon-box-cell">
+                                    <b><label class="counter text-l" data-speed="2000" data-to="2000">2000</label></b>
+                                    <p class="text-s">Monthly clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space m" />
+                    <a href="#" class="btn btn-lg">View all members</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="flexslider carousel outer-navs png-over text-center" data-options="numItems:6,minWidth:100,itemMargin:30,controlNav:false,directionNav:true">
+                <ul class="slides">
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_3.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="<?php echo base_url(); ?>images/logos/logo_4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_5.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_6.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_7.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_8.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="../images/logos/logo_2.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
