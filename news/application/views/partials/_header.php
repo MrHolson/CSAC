@@ -110,64 +110,64 @@
 		<script>var csfr_token_name = '<?php echo $this->security->get_csrf_token_name(); ?>';var csfr_cookie_name = '<?php echo $this->config->item('csrf_cookie_name'); ?>';var base_url = '<?php echo base_url(); ?>';var is_recaptcha_enabled = false;var lang_folder = '<?php echo $this->selected_lang->folder_name; ?>';<?php if ($recaptcha_status == true): ?>is_recaptcha_enabled = true;<?php endif; ?></script>
 	</head>
 	<body>
-	<div id="preloader"></div>
-	<!-- header -->
-	<header id="header" class="fixed-top scroll-change" data-menu-anima="fade-in">
-		<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">
-			<div class="navbar-mini scroll-hide">
-					<div class="container">
-						<div class="nav navbar-nav navbar-left">
-							<span><i class="fa fa-phone"></i>1-800-405-377</span>
-							<hr />
-							<span><i class="fa fa-envelope"></i>info@company.com</span>
+		<div id="preloader"></div>
+		<!-- header -->
+		<header id="header" class="fixed-top scroll-change" data-menu-anima="fade-in">
+			<nav class="navbar navbar-inverse mega-menu-fullwidth navbar-fixed-top" role="banner">
+				<div class="navbar-mini scroll-hide">
+						<div class="container">
+							<div class="nav navbar-nav navbar-left">
+								<span><i class="fa fa-phone"></i>1-800-405-377</span>
 								<hr />
-							<span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
-							<!--<hr />
-							<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>-->
-						</div>
-						<div class="nav navbar-nav navbar-right">
-							<div class="minisocial-group">
-								<a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
-								<a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-								<a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-								<a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+								<span><i class="fa fa-envelope"></i>info@company.com</span>
+									<hr />
+								<span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
+								<!--<hr />
+								<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>-->
+							</div>
+							<div class="nav navbar-nav navbar-right">
+								<div class="minisocial-group">
+									<a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
+									<a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+									<a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+									<a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
 							</div>
 						</div>
-					</div>
-			</div>	
-			<div class="navbar navbar-main" style="border:0">	
-				<div class="container nav-container">
+				</div>	
+				<div class="navbar navbar-main" style="border:0">	
+					<div class="container nav-container">
 
-					<div class="navbar-header logo-cnt">
-						<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
-							<img class="logo-default" src="<?php echo get_logo($general_settings); ?>" alt="logo">
-							<img class="logo-retina" src="<?php echo get_logo($general_settings); ?>" alt="logo">
-						</a>
-					</div>
-					<?php
-					$active_page = uri_string();
-					if ($general_settings->site_lang != $selected_lang->id) {
-						$active_page = $this->uri->segment(2);
-					}
+						<div class="navbar-header logo-cnt">
+							<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
+								<img class="logo-default" src="<?php echo get_logo($general_settings); ?>" alt="logo">
+								<img class="logo-retina" src="<?php echo get_logo($general_settings); ?>" alt="logo">
+							</a>
+						</div>
+						<?php
+						$active_page = uri_string();
+						if ($general_settings->site_lang != $selected_lang->id) {
+							$active_page = $this->uri->segment(2);
+						}
 
-					$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
+						$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
+					</div>
+					<div class="mobile-nav-container">
+						<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
+					</div>
 				</div>
-				<div class="mobile-nav-container">
-					<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
+			</nav><!--/nav-->
+			<!--search modal-->
+		</header>
+		<!-- /.header-->
+		<h1 class="title-index"><?php echo html_escape($title); ?></h1>
+			<div class="modal-search">
+				<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
+				<div class="container">
+					<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
+						placeholder="<?php echo html_escape(trans("search_exp")); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
+					<i class="icon-close s-close"></i>
 				</div>
-			</div>
-		</nav><!--/nav-->
-		<!--search modal-->
-	</header>
-	<!-- /.header-->
-	<h1 class="title-index"><?php echo html_escape($title); ?></h1>
-		<div class="modal-search">
-			<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
-			<div class="container">
-				<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
-					placeholder="<?php echo html_escape(trans("search_exp")); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
-				<i class="icon-close s-close"></i>
-			</div>
-			<?php echo form_close(); ?>
-		</div><!-- /.modal-search -->
-		<div id="overlay_bg" class="overlay-bg"></div>
+				<?php echo form_close(); ?>
+			</div><!-- /.modal-search -->
+			<div id="overlay_bg" class="overlay-bg"></div>
