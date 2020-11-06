@@ -1906,7 +1906,7 @@ section> #main{
 .content {
     display: block;
     height: auto;
-    min-height: 450px;
+    /*min-height: 450px;*/
 }
 
 .breadcrumb > li + li::before {
