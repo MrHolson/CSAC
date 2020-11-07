@@ -34,6 +34,9 @@ COLORS
 .woocommerce .product span.onsale, .circle-button, .btn.circle-button, .btn, .header-bootstrap, .header-title hr, .advs-box.boxed, i.circle, .intro-box:after, .intro-box:before,
 .advs-box-side-img hr, .call-action-box, .title-base hr, .nav.inner.ms-mini, .bg-color, .header-title.white .title-base hr, .header-animation.white .title-base hr,
 .title-base .scroll-top, .title-modern .scroll-top, i.square, .header-base, .progress-bar, .tagbox span, .niche-box-post .block-infos .block-data, .header-base .title-base h1:before {
+    background-color: #01b1d7;
+}
+.header-base .title-base h1:before {
     background-color: #ffffff;
 }
 
@@ -597,9 +600,7 @@ HEADER AND MENUS
     .navbar-mini:not(.hidden) + .navbar-main .navbar-header {
         margin-top: -22px;
         padding-left: 55px;
-        padding-right: 25px;
         margin-left: -55px;
-        margin-right: 55px;
         padding-top: 32px;
         background: #fff;
         position: relative;

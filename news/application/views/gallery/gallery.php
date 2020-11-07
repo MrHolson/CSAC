@@ -29,18 +29,12 @@
         </div>
     </div>
 <!-- Section: main -->
-<section id="main">
-    <div class="container">
-        <div class="row">
-            <!-- breadcrumb -->
-
+<div class="section-empty">
+        <div class="container content">
 
             <div class="page-content">
                 <div class="col-sm-12">
                     <div class="content page-about page-gallery">
-                        <?php if ($page->title_active) : ?>
-                            <h1 class="page-title"><?php echo html_escape($page->title); ?></h1>
-                        <?php endif; ?>
 
                         <div class="row row-masonry">
                             <div id="masonry" class="gallery">
@@ -74,7 +68,6 @@
             </div>
         </div>
     </div>
-</section>
 
 <script src="<?php echo base_url(); ?>assets/vendor/masonry-filter/imagesloaded.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/vendor/masonry-filter/masonry-3.1.4.min.js"></script>
