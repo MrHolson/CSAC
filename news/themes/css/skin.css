@@ -181,7 +181,7 @@ header .input-group-btn .btn {
 }
 
 .white.btn:not(.btn-border), .white .btn:not(.btn-border) {
-    color: #7a7a7a !important;
+    color: #000000 !important;
 }
 
 .input-group-btn .btn, .btn.btn-primary:hover {
