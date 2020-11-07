@@ -664,7 +664,7 @@ class Home_controller extends Home_Core_Controller
 	//cookies warning
 	public function cookies_warning()
 	{
-		setcookie('inf_cookies_warning', '1', time() + (86400 * 20), "/");
+		setcookie('csac_cookies_warning', '1', time() + (86400 * 20), "/");
 	}
 
 	private function checkPageAuth($page)
