@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-	<div class="section-empty no-paddings">
+	<div class="section-empty ">
         <div class="section-slider row-20 white">
             <div class="flexslider advanced-slider slider visible-dir-nav" data-options="animation:fade">
                 <ul class="slides">
