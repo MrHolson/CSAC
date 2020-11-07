@@ -1,13 +1,19 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
-<!-- Section: main -->
-<section id="main">
-    <div class="container">
-        <div class="row">
-            <!-- breadcrumb -->
-            <?php if ($page->breadcrumb_active == 1): ?>
+<div class="header-base white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="title-base text-left">
+                    <?php if ($page->title_active) : ?>
+                            <h1 class=""><?php echo html_escape($page->title); ?></h1>
+                        <?php endif; ?>
+                        <p>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                <?php if ($page->breadcrumb_active == 1): ?>
                 <div class="page-breadcrumb">
-                    <ol class="breadcrumb">
+                    <ol class="breadcrumb  b white">
                         <li class="breadcrumb-item">
                             <a href="<?php echo lang_base_url(); ?>"><?php echo html_escape(trans("home")); ?></a>
                         </li>
@@ -18,6 +24,16 @@
                 <div class="page-breadcrumb m-t-45">
                 </div>
             <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Section: main -->
+<section id="main">
+    <div class="container">
+        <div class="row">
+            <!-- breadcrumb -->
+
 
             <div class="page-content">
                 <div class="col-sm-12">

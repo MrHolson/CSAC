@@ -4399,7 +4399,10 @@ Responsive CSS Fixes
         box-shadow: none !important;
         border: 0 !important;
     }
-
+    .fixed-top {
+        margin-bottom:0!important;
+    }
+    
     .navbar-inverse {
         height: auto;
     }
@@ -4408,8 +4411,8 @@ Responsive CSS Fixes
         display: none;
     }
 
-    .navbar-header {
-      /*  display: none; */
+    .navbar-header,.navbar-main {
+      display: none; 
     }
 
     .nav-mobile-header {
@@ -4418,6 +4421,7 @@ Responsive CSS Fixes
 
     .mobile-nav-container {
         min-height: 60px;
+        margin-top:-60px;
     }
 
     .navbar-collapse {

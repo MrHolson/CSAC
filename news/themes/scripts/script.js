@@ -1071,7 +1071,7 @@ function isScrollView(t) {
 
         //WORDPRESS
         if ($("#wpadminbar").length) {
-            if ($("header").hasClass("fixed-top")) $("header > .navbar").css("margin-top", "32px");
+            if ($("header").hasClass("fixed-top")) $("header > .navbar").css("margin-top", "80px");
             if ($("header").hasClass("side-menu-header")) $("header .side-menu-fixed,header .navbar-fixed-top").css("margin-top", "32px");
         }
         cache = $("header a");

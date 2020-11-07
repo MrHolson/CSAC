@@ -121,7 +121,7 @@
 								<span><i class="fa fa-phone"></i>1-800-405-377</span>
 								<hr />
 								<span><i class="fa fa-envelope"></i>info@company.com</span>
-									<hr />
+								<hr />
 								<span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
 								<!--<hr />
 								<span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>-->
@@ -139,7 +139,7 @@
 				<div class="navbar navbar-main" style="border:0">	
 					<div class="container nav-container">
 
-						<div class="navbar-header logo-cnt">
+						<div class="navbar-header">
 							<a class="navbar-brand" href="<?php echo lang_base_url(); ?>">
 								<img class="logo-default" src="<?php echo get_logo($general_settings); ?>" alt="logo">
 								<img class="logo-retina" src="<?php echo get_logo($general_settings); ?>" alt="logo">
@@ -153,16 +153,12 @@
 
 						$this->load->view("partials/_nav.php", ['active_page' => $active_page]); ?>
 					</div>
-					<div class="mobile-nav-container">
-						<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
-					</div>
+
 				</div>
-			</nav><!--/nav-->
-			<!--search modal-->
-		</header>
-		<!-- /.header-->
-		<h1 class="title-index"><?php echo html_escape($title); ?></h1>
-			<div class="modal-search">
+				<div class="mobile-nav-container">
+						<?php $this->load->view("partials/_nav_mobile.php", ['active_page' => $active_page]); ?>
+					</div>				
+				<div class="modal-search">
 				<?php echo form_open(lang_base_url() . 'search', ['method' => 'get']); ?>
 				<div class="container">
 					<input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*"
@@ -171,4 +167,10 @@
 				</div>
 				<?php echo form_close(); ?>
 			</div><!-- /.modal-search -->
-			<div id="overlay_bg" class="overlay-bg"></div>
+			</nav><!--/nav-->
+			<!--search modal-->
+			
+		</header>
+		<!-- /.header-->
+		<h1 class="title-index"><?php echo html_escape($title); ?></h1>
+		<div id="overlay_bg" class="overlay-bg"></div>

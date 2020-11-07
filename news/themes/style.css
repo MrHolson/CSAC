@@ -944,10 +944,6 @@ header > .navbar {
     border: none;
 }
 
-    .navbar-main .btn-search {
-        margin-top: 7px;
-    }
-
 .bg-menu {
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -999,6 +995,7 @@ div.full-width-menu .inner .dropdown-submenu:hover > a:after, div.full-width-men
 
 .fixed-top {
     height: 52px;
+    margin-bottom:57px;
 }
 
 .navbar-nav > li:hover > a, .navbar-inverse .navbar-nav > li > a:hover, .dropdown > li:hover > a, .dropdown-menu ul > li:hover > a, .subline-bar li:hover, .sidebar-nav ul a:hover, .panel-item > span:hover, .sidebar-nav .panel-item > span:hover, .bg-transparent li.active {
