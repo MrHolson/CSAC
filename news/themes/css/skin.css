@@ -830,7 +830,7 @@ footer {
     }
 
     footer .container {
-        padding: 80px 15px;
+      /*  padding: 80px 15px; */
     }
 
     footer .copy-row .copy-text {

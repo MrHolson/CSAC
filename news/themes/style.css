@@ -2530,9 +2530,6 @@ footer {
         margin-top: 0;
     }
 
-footer .container {
-    padding: 35px 15px;
-}
 
 .footer-bg .copy-row .copy-text {
     letter-spacing: 1px;
@@ -6436,9 +6433,6 @@ MENU - RESPONSIVE
         padding-bottom: 0;
     }
 
-    footer .container {
-        padding: 35px 0 15px 0;
-    }
 
     .menu-outer ul.nav {
         position: relative;
