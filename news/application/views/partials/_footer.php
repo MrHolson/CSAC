@@ -154,9 +154,6 @@
 		<a href="javascript:void(0)" onclick="hide_cookies_warning();" class="icon-cl"> <i class="icon-close"></i></a>
 	</div>
 <?php endif; ?>
-<!-- Scroll Up Link -->
-<a href="#" class="scrollup"><i class="icon-arrow-up"></i></a>
-<!-- Slider js -->
 <script src="<?php echo base_url(); ?>assets/vendor/slick/slick.min.js"></script>
 <!-- Bootstrap js -->
 <script src="<?php echo base_url(); ?>assets/vendor/bootstrap/js/bootstrap.min.js"></script>

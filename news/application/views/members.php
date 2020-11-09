@@ -14,7 +14,7 @@
                     <li class="breadcrumb-item">
                             <a href="<?php echo lang_base_url(); ?>"><?php echo html_escape(trans("home")); ?></a>
                         </li>
-                        <li class="breadcrumb-item active">Faqs</li>
+                        <li class="breadcrumb-item active">Notre équipe</li>
                     </ol>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-2.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-2.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Sarah Partison</h2>
@@ -83,7 +83,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-3.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-3.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Lee Chen Tol</h2>
@@ -104,7 +104,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-8.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-8.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Alan Martinez</h2>
@@ -122,7 +122,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-9.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-9.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Zarata Afratto</h2>
@@ -140,7 +140,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-4.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-4.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Sarah Partison</h2>
@@ -158,7 +158,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-5.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-5.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Lee Chen Tol</h2>
