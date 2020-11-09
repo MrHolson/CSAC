@@ -60,6 +60,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['index'] = 'home_controller/index';
 $route['error-404'] = 'home_controller/error_404';
 $route['faq'] = 'home_controller/faq';
+$route['members'] = 'home_controller/members';
 
 $route['gallery'] = 'home_controller/gallery';
 $route['gallery/album/(:num)'] = 'home_controller/gallery_album/$1';
