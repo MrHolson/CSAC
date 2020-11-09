@@ -400,7 +400,7 @@ endif; ?>
                         </div>
                     </div>
                     <hr class="space m" />
-                    <a href="#" class="btn btn-lg">View all members</a>
+                    <a href="<?php echo base_url(); ?>members" class="btn btn-lg">Voir tout les membres</a>
                 </div>
             </div>
         </div>
