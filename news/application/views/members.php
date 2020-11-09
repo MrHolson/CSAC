@@ -29,7 +29,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-6.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-6.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Jack Christian</h2>
@@ -47,7 +47,7 @@
                 <div class="col-md-3">
                     <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
                         <a class="img-box">
-                            <img class="anima" src="../images/users/user-7.jpg" alt="" />
+                            <img class="anima" src="./images/users/user-7.jpg" alt="" />
                         </a>
                         <div class="content-box">
                             <h2>Zarata Afratto</h2>
