@@ -134,6 +134,27 @@ class Home_controller extends Home_Core_Controller
 		}
 	}
 
+	public function faq()
+	{
+		get_method();
+		$data['page'] = $this->page_model->get_page('faq');
+		//check page auth
+		$this->checkPageAuth($data['page']);
+
+		if ($data['page']->page_active == 0) {
+			$this->error_404();
+		} else {
+			$data['title'] = get_page_title($data['page']);
+			$data['description'] = get_page_description($data['page']);
+			$data['keywords'] = get_page_keywords($data['page']);
+			
+
+			$this->load->view('partials/_header', $data);
+			$this->load->view('contact', $data);
+			$this->load->view('partials/_footer');
+		}
+	}
+
 
 	/**
 	 * Contact Page Post
