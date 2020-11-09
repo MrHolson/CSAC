@@ -37,6 +37,8 @@
 
 <?php elseif ($layout == "layout_3" || $layout == "layout_6"): ?>
 
+
+	
 	<div class="col-sm-6 col-xs-12 item-boxed-cnt">
 		<!--Post list item-->
 		<div class="col-xs-12 post-item-boxed p0">
