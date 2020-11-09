@@ -1,12 +1,15 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
-<!-- Section: main -->
-<section id="main">
-	<div class="container">
-		<div class="row">
-			<!-- breadcrumb -->
-			<div class="page-breadcrumb">
-				<ol class="breadcrumb">
+<div class="header-base white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="title-base text-left">
+                        <h1><?php echo html_escape($title); ?></h1>
+                        <p>L<?php echo html_escape($description); ?></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ol class="breadcrumb b white">
 					<li class="breadcrumb-item">
 						<a href="<?php echo lang_base_url(); ?>"><?php echo html_escape(trans("home")); ?></a>
 					</li>
@@ -25,8 +28,25 @@
 						</li>
 					<?php endif;
 					endif; ?>
-				</ol>
-			</div>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-title ken-burn-center white" data-parallax="scroll" data-position="top" data-natural-height="650" data-natural-width="1920" data-image-src="../images/bg-10.jpg">
+        <div class="container">
+            <div class="title-base">
+                <hr class="anima" />
+                <h1>News</h1>
+                <p>News and interesting news from our world.</p>
+            </div>
+        </div>
+    </div>
+<!-- Section: main -->
+<section id="main">
+	<div class="container">
+		<div class="row">
+			<!-- breadcrumb -->
 
 			<div class="col-xs-12 col-sm-12 col-md-8">
 				<div class="content">
