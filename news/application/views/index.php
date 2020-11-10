@@ -91,7 +91,7 @@
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
                             <i class="fa fa-comments-o icon circle anima"></i>
-                            <h3>Consulting</h3>
+                            <h3>Journalisme</h3>
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
                             </p>
@@ -100,7 +100,7 @@
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
                             <i class="fa fa-clone icon circle anima"></i>
-                            <h3>Architecture</h3>
+                            <h3>Audiovisuel</h3>
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
                             </p>
@@ -221,7 +221,170 @@
         </div>
     </div>
     	
-	
+    <div class="section-bg-color">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse text-left">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="./images/gallery/image-1.jpg" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Actualités</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
+                            </p>
+                            <a href="<?php echo base_url(); ?>actualites" class="btn-text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse text-left">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="./images/gallery/image-2.jpg" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Real estate</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
+                            </p>
+                            <a href="<?php echo base_url(); ?>" class="btn-text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse text-left">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="./images/gallery/image-6.jpg" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Interior design</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
+                            </p>
+                            <a href="#" class="btn-text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse text-left">
+                        <a class="img-box lightbox img-scale-up" href="#">
+                            <span><img src="./images/gallery/image-3.jpg" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Consulting</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
+                            </p>
+                            <a href="#" class="btn-text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="title-base text-left">
+                        <hr />
+                        <h2>Learning and development</h2>
+                        <p>Lorem ipsum dolor sit ameto</p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12 boxed-inverse shadow-1 text-left" data-anima="fade-right">
+                    <h4 class="text-l">Free report</h4>
+                    <p>Get your free report within 2 working days.</p>
+                    <hr class="space s" />
+                    <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post" data-email="federico@pixor.it">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <hr class="space xs" />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                <hr class="space xs" />
+                                <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                <hr class="space s" />
+                                <button class="btn-sm btn" type="submit"><i class="fa-envelope-open-o fa"></i>Send messagge</button>
+                            </div>
+                        </div>
+                        <div class="success-box">
+                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-bg-image parallax-window" data-natural-height="650" data-natural-width="1980" data-parallax="scroll" data-image-src="./images/bg-2.jpg">
+        <div class="container content">
+            <div class="row proporzional-row">
+                <div class="col-md-4 col-sm-6 boxed-inverse boxed-border white middle-content text-left">
+                    <h4 class="text-color">Meet us</h4>
+                    <h2 class="text-l">We're hiring</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempore.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 boxed-inverse boxed-border white middle-content text-left">
+                    <h4 class="text-color text-s">Installations</h4>
+                    <div class="counter-box-simple"><span class="counter text-xl" data-to="5100"></span></div>
+                    <hr class="space xs" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscingo.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 boxed white middle-content text-left">
+                    <h4>Contact us</h4>
+                    <h2 class="text-l">Engineers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempore.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 boxed-inverse middle-content text-left">
+                    <h4 class="text-color">Meet us</h4>
+                    <h2 class="text-l">We're hiring</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-bg-color">
+        <div class="container content">
+            <div class="row vertical-row">
+                <div class="col-md-8 opacity-8">
+                    <h3>Do you need Professionals to project and build your dream home?</h3>
+                    <p class="no-margins">We offer the best engineers and builders to make your dreams come true.</p>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn-border btn btn-lg nav-justified">Read more</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-lg nav-justified">Get quotation</a>
+                </div>
+            </div>
+        </div>
+    </div>	
 
 
 <?php if ($layout == "layout_1" || $layout == "layout_2" || $layout == "layout_3"):
