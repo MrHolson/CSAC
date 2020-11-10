@@ -6989,70 +6989,6 @@ VARIOUS
         margin-bottom: 0;
     }
 
-    .col-md-6, .col-md-3:not(.widget), .col-md-9, footer .col-md-4 .col-md-6 {
-        width: 50%;
-        float: left;
-    }
-
-    .row > div.widget {
-        float: left;
-    }
-
-    .col-md-4, .col-md-2 {
-        width: 33%;
-        float: left;
-    }
-
-    .col-md-8 {
-        width: 66%;
-        float: left;
-    }
-
-    footer .content > div > .row > [class*="col-md"], .col-md-4 [class*="col-md"], .sidebar-content > .row > .col-md-9, .woocommerce-cnt > .section-empty > .content > .row > .col-md-9 {
-        width: 100%;
-        float: none;
-    }
-
-    div [class*="boxed"].col-md-12 {
-        width: auto !important;
-    }
-
-
-    .col-sm-12 {
-        width: 100% !important;
-    }
-
-    .col-sm-6 {
-        width: 50% !important;
-        float: left;
-    }
-
-    .col-sm-4 {
-        width: 33.33% !important;
-        float: left;
-    }
-
-
-    [class*="boxed"].col-sm-12, [class*="boxed"].col-md-4.col-sm-12.boxed-inverse, [class*="boxed"].col-sm-12.col-md-4.boxed {
-        width: calc(100% - 30px) !important;
-    }
-
-    [class*="col-md-"].boxed-inverse.col-sm-6, [class*="col-md-"].boxed.col-sm-6, .col-md-6.boxed-inverse:not([class*="col-sm-"]), .col-md-6.boxed:not([class*="col-sm-"]) {
-        width: 50% !important;
-        width: calc(50% - 30px) !important;
-        float: left;
-    }
-
-    [class*="col-md-"].boxed-inverse, [class*="col-md-"].boxed, .col-md-6.col-sm-12.boxed-inverse, .col-md-6.col-sm-12.boxed {
-        max-width: 100%;
-        width: calc(100% - 30px) !important;
-        margin: 5px 15px;
-    }
-
-    .col-md-4.boxed-inverse:not([class*="col-sm-"]), .col-md-4.boxed:not([class*="col-sm-"]) {
-        width: calc(33.3333% - 30px) !important;
-    }
-
     .section-two-blocks .row > div > a.img-box {
         display: block;
     }
@@ -7155,7 +7091,6 @@ MOBILE - EXTRA SMALL SCREENS
       .col-md-4.boxed-inverse:not([class*="col-sm-"]), .col-md-4.boxed:not([class*="col-sm-"]),[class*="col-md-"].boxed-inverse.col-sm-6, [class*="col-md-"].boxed.col-sm-6,
        .col-md-6.boxed-inverse:not([class*="col-sm-"]), .col-md-6.boxed:not([class*="col-sm-"]) {
         width: 100% !important;
-        width: calc(100% - 30px) !important;
     }
     .grid-table {
         display: block;

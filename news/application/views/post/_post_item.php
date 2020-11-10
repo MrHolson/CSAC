@@ -39,7 +39,7 @@
 
 
 	
-	<div class="col-sm-6 col-xs-12 item-boxed-cnt">
+	<div class="col-sm-6 col-xs-12 item-boxed-cnt grid-item ">
 		<!--Post list item-->
 		<div class="col-xs-12 post-item-boxed p0">
 			<div class="item-image">
@@ -54,7 +54,7 @@
 				</a>
 			</div>
 
-			<div class="item-content">
+			<div class="item-content ">
 				<h3 class="title">
 					<a href="<?php echo generate_post_url($item); ?>">
 						<?php echo html_escape(character_limiter($item->title, 50, '...')); ?>

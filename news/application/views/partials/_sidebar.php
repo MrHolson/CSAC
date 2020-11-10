@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-<div class="sidebar">
+<div class="sidebar widget">
 
     <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "sidebar_top"]); ?>
 
