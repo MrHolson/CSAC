@@ -140,8 +140,8 @@
                 <div class="col-md-4">
                     <div class="title-base  text-left">
                         <hr />
-                        <h2>Our services</h2>
-                        <p>Take a look inside</p>
+                        <h2>Qu’est-ce que le CSAC ?</h2>
+                        <p>Le CSAC</p>
                     </div>
                     <p class="text-color">
                         Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
@@ -153,10 +153,11 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris ninto.
-                    </p>
+                <div class="title-base  text-left">
+                        <hr />
+                        <h2>Qui Sommes-nous ?</h2>
+                        <p>Le CSAC</p>
+                    </div>
                     <p>
                         Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut
                         laoreet ac, aliquam sit amet justo nunc tempor, metus velo.
