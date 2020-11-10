@@ -137,7 +137,7 @@
             </div>
             <hr class="space" />
             <div class="row vefrtical-row">
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <div class="title-base  text-left">
                         <hr />
                         <h2>Qu’est-ce que le CSAC ?</h2>
@@ -151,13 +151,6 @@
                         Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
                         in voluptate velit esse cillumo.
                     </p>
-                </div>
-                <div class="col-md-4">
-                <div class="title-base  text-left">
-                        <hr />
-                        <h2>Qui Sommes-nous ?</h2>
-                        <p>Le CSAC</p>
-                    </div>
                     <p>
                         Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut
                         laoreet ac, aliquam sit amet justo nunc tempor, metus velo.
@@ -216,7 +209,7 @@
                         </div>
                     </div>
                     <hr class="space s" />
-                    <a href="services" class="btn btn-lg"><i class="fa fa-angle-right"></i>View services</a>
+                    <a href="services" class="btn btn-lg"><i class="fa fa-angle-right"></i>Nos Services</a>
                 </div>
             </div>
         </div>
