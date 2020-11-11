@@ -1,12 +1,18 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
-<!-- Section: main -->
-<section id="main">
-	<div class="container">
-		<div class="row">
-			<!-- breadcrumb -->
-			<div class="page-breadcrumb">
-				<ol class="breadcrumb">
+	
+	<div class="header-base white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="title-base text-left">
+                        <h1><?php echo html_escape($post->title); ?></h1>
+                        <p>
+                            Per viverra incididunt voluptate quisque mattis deserunt velit mauris cursus vitae.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ol class="breadcrumb b">
 					<li class="breadcrumb-item"><a href="<?php echo lang_base_url(); ?>"> <?php echo html_escape(trans("home")); ?></a></li>
 					<?php $category_array = get_category_array($post->category_id);
 					if (!empty($category_array['parent_category'])):?>
@@ -18,10 +24,17 @@
 						<li class="breadcrumb-item">
 							<a href="<?php echo generate_category_url($category_array['parent_category']->slug, $category_array['subcategory']->slug); ?>"><?php echo html_escape($category_array['subcategory']->name); ?></a>
 						</li>
-					<?php endif; ?>
-					<li class="breadcrumb-item active"><?php echo html_escape($post->title); ?></li>
-				</ol>
-			</div>
+					<?php endif; ?><!--
+					<li class="breadcrumb-item active"><?php echo html_escape($post->title); ?> </li> -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Section: main -->
+<section id="main">
+	<div class="container">
+		<div class="row">
 
 			<div class="col-sm-12 col-md-8">
 				<div class="content">
