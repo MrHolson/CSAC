@@ -168,6 +168,7 @@ class Home_controller extends Home_Core_Controller
 			$this->load->view('partials/_footer');
 		}
 	}
+	/*
 	public function about()
 	{
 		get_method();
@@ -187,7 +188,7 @@ class Home_controller extends Home_Core_Controller
 			$this->load->view('about', $data);
 			$this->load->view('partials/_footer');
 		}
-	}
+	} */
 	public function about()
 	{
 		get_method();
