@@ -39,9 +39,9 @@
 
 
 	
-	<div class="col-sm-6 col-xs-12 item-boxed-cnt grid-item ">
+	<div class="col-sm-6 col-xs-12 item-boxed-cnt grid-item " style="margin-bottom:20px">
 		<!--Post list item-->
-		<div class="col-xs-12 post-item-boxed p0">
+		<div class="col-xs-12 post-item-boxed p0 boxed-inverse shadow-1">
 			<div class="item-image">
 				<a href="<?php echo generate_category_url($item->parent_category_slug, $item->category_slug); ?>">
                     <span class="label-post-category">
@@ -54,7 +54,7 @@
 				</a>
 			</div>
 
-			<div class="item-content ">
+			<div class="item-content " style="padding:22px 30px">
 				<h3 class="title">
 					<a href="<?php echo generate_post_url($item); ?>">
 						<?php echo html_escape(character_limiter($item->title, 50, '...')); ?>

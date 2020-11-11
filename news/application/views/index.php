@@ -13,7 +13,7 @@
                                     <div class="container-inner text-left">
                                         <div class="row">
                                             <div class="col-md-8 anima">
-                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h2 class="text-color">Garantie de droit de liberté</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
@@ -38,7 +38,7 @@
                                     <div class="container-inner text-left">
                                         <div class="row">
                                             <div class="col-md-8 anima">
-                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h2 class="text-color">Comment CSAC fonctionne-t-il ?</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
@@ -63,7 +63,7 @@
                                     <div class="container-inner text-left">
                                         <div class="row">
                                             <div class="col-md-8 anima">
-                                                <h2 class="text-color">Architecture and business</h2>
+                                                <h2 class="text-color">Création et regulation d'une Chaine télévisée</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
@@ -188,6 +188,17 @@
                         <div class="list-item">
                             <div class="row">
                                 <div class="col-md-9">
+                                    <h3>Green constructions</h3>
+                                    <p>Aute irure dolor in reprehenderit</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span>Eco</span>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-9">
                                     <h3>Future technologies</h3>
                                     <p>Aute irure dolor in reprehenderit</p>
                                 </div>
@@ -214,7 +225,7 @@
             </div>
         </div>
     </div>
-    	
+	
     <div class="section-bg-color">
         <div class="container content">
             <div class="row">
@@ -228,7 +239,7 @@
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
                             </p>
-                            <a href="<?php echo base_url(); ?>actualites" class="btn-text">Read more</a>
+                            <a href="<?php echo base_url(); ?>actualites" class="btn-text">Lire Plus</a>
                         </div>
                     </div>
                 </div>
@@ -238,11 +249,11 @@
                             <span><img src="./images/gallery/image-2.jpg" alt=""></span>
                         </a>
                         <div class="advs-box-content">
-                            <h3>Real estate</h3>
+                            <h3>Communiqués</h3>
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
                             </p>
-                            <a href="<?php echo base_url(); ?>" class="btn-text">Read more</a>
+                            <a href="<?php echo base_url(); ?>communiques" class="btn-text">Lire Plus</a>
                         </div>
                     </div>
                 </div>
@@ -252,11 +263,11 @@
                             <span><img src="./images/gallery/image-6.jpg" alt=""></span>
                         </a>
                         <div class="advs-box-content">
-                            <h3>Interior design</h3>
+                            <h3>Les Actes</h3>
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
                             </p>
-                            <a href="#" class="btn-text">Read more</a>
+                            <a href="<?php echo base_url(); ?>les-actes" class="btn-text">Lire Plus</a>
                         </div>
                     </div>
                 </div>
@@ -266,11 +277,11 @@
                             <span><img src="./images/gallery/image-3.jpg" alt=""></span>
                         </a>
                         <div class="advs-box-content">
-                            <h3>Consulting</h3>
+                            <h3>Le Regulateur</h3>
                             <p>
                                 Interdum iusto pulvinar consequuntur augue optione repellate fugause expeta.
                             </p>
-                            <a href="#" class="btn-text">Read more</a>
+                            <a href="<?php echo base_url(); ?>regulateur" class="btn-text">Lire Plus</a>
                         </div>
                     </div>
                 </div>
@@ -363,6 +374,32 @@
             </div>
         </div>
     </div>
+    <div class="section-empty section-item">
+        <div class="container content">
+            <div class="row proporzional-row">
+                <div class="col-md-6">
+                    <p>
+                        Proin augue neque, vestibulum vitae urna quis, ornare lobortis sem. Maecenas sit amet gravida neque, in mollis nulla. Aenean vel nulla at
+                        enim maximus varius vitae in tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </p>
+                    <p class="block-quote quote-1">
+                        It is better to lead from behind and to put others in front,
+                        especially when you celebrate victory when nice things occur.
+                    </p>
+                    <p>
+                        Vulputate nobis impedit aute unde exercitation quod quidem! Hymenaeos placerat, temporibus quas incidunt, dicta proin ea quas morbi. Cursus eos, quidem. Soluta?
+                        Iste repellendus. Tenetur, natoque saepe facere odio sed. Fuga provident, exercitation dolorum minus tempor.
+                    </p>
+                </div>
+                <div class="col-md-3 boxed-inverse middle-content text-center">
+                    <h4>FOR CREATE AWESOME WEBSITES</h4>
+                </div>
+                <div class="col-md-3 middle-content boxed white text-center">
+                    <h4>MAGNIFIC AND UNIQUE DESIGN</h4>
+                </div>
+            </div>
+        </div>
+    </div>        
     <div class="section-bg-color">
         <div class="container content">
             <div class="row vertical-row">
@@ -371,10 +408,10 @@
                     <p class="no-margins">We offer the best engineers and builders to make your dreams come true.</p>
                 </div>
                 <div class="col-md-2">
-                    <a href="#" class="btn-border btn btn-lg nav-justified">Read more</a>
+                    <a href="<?php echo base_url(); ?>blog" class="btn btn-info btn-lg nav-justified">Lire Plus </a>
                 </div>
                 <div class="col-md-2">
-                    <a href="#" class="btn btn-lg nav-justified">Get quotation</a>
+                    <a href="<?php echo base_url(); ?>contact" class="btn btn-lg nav-justified">Nous Contacter </a>
                 </div>
             </div>
         </div>
@@ -462,7 +499,7 @@ endif; ?>
                 <div class="col-md-4 col-sm-12">
                     <div class="title-base text-left">
                         <hr />
-                        <h2>Funny people</h2>
+                        <h2>Notre équipes</h2>
                         <p>People behind the company</p>
                     </div>
                     <p>
