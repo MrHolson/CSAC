@@ -33,16 +33,13 @@
     </div>
 <!-- Section: main -->
 <section id="main">
-	<div class="container">
+	<div class="container content">
 		<div class="row">
 
 			<div class="col-sm-12 col-md-8">
 				<div class="content">
 
 					<div class="post-content">
-						<div class="post-title">
-							<h1 class="title"><?php echo html_escape($post->title); ?></h1>
-						</div>
 						<div class="post-meta">
 							<?php if (!empty($category) && !empty($category->parent_id)):
 								$parent = helper_get_category($category->parent_id);

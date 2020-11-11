@@ -2872,8 +2872,8 @@ BASE
 ------------------------------
 */
 .header-base {
-    min-height: 150px;
-    padding-top: 20px;
+    min-height: 200px;
+    padding-top: 30px;
     padding-bottom: 40px;
     margin-top: 0;
     background-color: #6F6F6F;
