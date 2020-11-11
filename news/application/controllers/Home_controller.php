@@ -172,7 +172,7 @@ class Home_controller extends Home_Core_Controller
 	public function about()
 	{
 		get_method();
-		$data['page'] = $this->page_model->get_page('about');
+		$data['page'] = $this->page_model->get_page('about-us');
 		//check page auth
 		$this->checkPageAuth($data['page']);
 
@@ -185,7 +185,7 @@ class Home_controller extends Home_Core_Controller
 			
 
 			$this->load->view('partials/_header', $data);
-			$this->load->view('faq', $data);
+			$this->load->view('about', $data);
 			$this->load->view('partials/_footer');
 		}
 	}

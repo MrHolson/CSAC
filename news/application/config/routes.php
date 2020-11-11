@@ -63,6 +63,7 @@ $route['faq'] = 'home_controller/faq';
 $route['members'] = 'home_controller/members';
 $route['services'] = 'home_controller/services';
 $route['blog'] = 'home_controller/blog';
+$route['about-us'] = 'home_controller/about';
 
 $route['gallery'] = 'home_controller/gallery';
 $route['gallery/album/(:num)'] = 'home_controller/gallery_album/$1';
