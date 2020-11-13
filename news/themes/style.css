@@ -6953,7 +6953,7 @@ VARIOUS
     }
 
     footer, .footer-left, .footer-right {
-        text-align: center;
+       /* text-align: center; */
     }
 
         footer hr {
