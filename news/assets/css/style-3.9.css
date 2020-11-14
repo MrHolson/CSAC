@@ -358,7 +358,7 @@ img {
     opacity: 1;
     background: #fff;
     width: auto !important;
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu:before {
