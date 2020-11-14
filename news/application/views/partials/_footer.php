@@ -139,7 +139,7 @@
 						<div class="col-md-12">
 							<div class="footer-bottom-left">
 								<p><?php echo $settings->copyright; ?></p>
-								<span class="visible-lg " style="margin-top:-20px;position:absolute">Powered by <a href="https://bit.ly/Holduix">Holduix</a></span>
+								<span class="visible-lg " target="_blank" style="margin-top:-20px;position:absolute">Powered by <a href="https://bit.ly/Holduix">Holduix</a></span>
 								
 							</div>
 							<div class="footer-bottom-right">

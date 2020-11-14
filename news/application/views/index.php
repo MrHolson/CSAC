@@ -6,14 +6,14 @@
                 <ul class="slides">
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>assets/img/bg-1.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <div class="row">
-                                            <div class="col-md-8 anima">
-                                                <h2 class="text-color">Garantie de droit de liberté</h2>
+                                            <div class="col-md-8 anima" >
+                                                <h2 class="">Garantie de droit de liberté</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
@@ -31,14 +31,14 @@
                     </li>
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>assets/img/bg-2.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <div class="row">
                                             <div class="col-md-8 anima">
-                                                <h2 class="text-color">Comment CSAC fonctionne-t-il ?</h2>
+                                                <h2 class="">Comment CSAC fonctionne-t-il ?</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
@@ -56,14 +56,14 @@
                     </li>
                     <li data-slider-anima="fade-left" data-time="1000">
                         <div class="section-slide">
-                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>images/img31.jpg')">
+                            <div class="bg-cover" style="background-image:url('<?php echo base_url(); ?>assets/img/bg-3.jpg')">
                             </div>
                             <div class="container">
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <div class="row">
                                             <div class="col-md-8 anima">
-                                                <h2 class="text-color">Création et regulation d'une Chaine télévisée</h2>
+                                                <h2 class="">Création et regulation d'une Chaine télévisée</h2>
                                                 <h1 class="text-l text-normal">An architect is a person who plans, designs and reviews the construction of buildings and any other structure</h1>
                                                 <hr class="space s" />
                                                 <p class="width-500">
