@@ -2,7 +2,7 @@
 
 Template Color CSS File
 
-Color code: #01b1d7
+Color code: #3e7cc4
 
 Author: Codingest
 Template Name: CSAC
@@ -10,33 +10,33 @@ Template Name: CSAC
 
 /*a tag*/
 a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 a:focus, a:active {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 #infinity-outline {
-	stroke: #01b1d7;
+	stroke: #3e7cc4;
 }
 
 .nav-mobile-header {
-	background-color: #01b1d7 !important;
+	background-color: #3e7cc4 !important;
 }
 
 /*navigation*/
 .navbar-toggle {
-	background-color: #01b1d7 !important;
+	background-color: #3e7cc4 !important;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: #01b1d7 !important;
+	border-color: #3e7cc4 !important;
 }
 
 .btn-custom {
-	background-color: #01b1d7;
-	border-color: #01b1d7;
+	background-color: #3e7cc4;
+	border-color: #3e7cc4;
 }
 
 .btn-custom:hover {
@@ -55,31 +55,31 @@ a:focus, a:active {
 }
 
 .btn-error-back {
-	background-color: #01b1d7 !important;
-	border-color: #01b1d7 !important;
+	background-color: #3e7cc4 !important;
+	border-color: #3e7cc4 !important;
 }
 
 ::selection {
-	background: #01b1d7 !important;
+	background: #3e7cc4 !important;
 	color: #fff;
 }
 
 ::-moz-selection {
-	background: #01b1d7 !important;
+	background: #3e7cc4 !important;
 	color: #fff;
 }
 
 .text-category {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 /*navbar color style*/
 .navbar-inverse .navbar-nav .active a::after {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -88,123 +88,123 @@ a:focus, a:active {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-	color: #01b1d7 !important;
+	color: #3e7cc4 !important;
 	background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
 	background-color: transparent;
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .home-slider-item .item-info .label-slider-category {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .label-post-category {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .read-more {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .widget-title .title::after {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .ramdom-post-slider .item-info .label-slider-category {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .w-tag-list li a:hover {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .post-content .post-meta a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .post-content .post-tags .tag-list li a:hover {
-	border-color: #01b1d7;
-	background-color: #01b1d7;
+	border-color: #3e7cc4;
+	background-color: #3e7cc4;
 }
 
 .related-posts .related-post-title .title::after {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .pagination .active a {
-	border: 1px solid #01b1d7 !important;
-	background-color: #01b1d7 !important;
+	border: 1px solid #3e7cc4 !important;
+	background-color: #3e7cc4 !important;
 	color: #fff !important;
 }
 
 .f-random-list li .title a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .newsletter button {
-	background: #01b1d7;
+	background: #3e7cc4;
 }
 
 .label-slider-category {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .random-post-slider .owl-prev:hover .random-arrow-prev {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .random-post-slider .owl-next:hover .random-arrow-next {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .post-detail-slider .owl-prev:hover .post-detail-arrow-prev {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .post-detail-slider .owl-next:hover .post-detail-arrow-next {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .leave-reply .form-control:focus {
-	border-color: #01b1d7;
+	border-color: #3e7cc4;
 }
 
 .page-contact .form-control:focus {
-	border-color: #01b1d7;
+	border-color: #3e7cc4;
 }
 
 .form-input:focus {
-	border-color: #01b1d7;
+	border-color: #3e7cc4;
 }
 
 .link-forget:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .filters .active::after {
-	background: #01b1d7;
+	background: #3e7cc4;
 }
 
 .filters .btn:focus:after, .filters .btn:hover:after, .filters .btn:active:after {
-	background: #01b1d7;
+	background: #3e7cc4;
 }
 
 .gallery-categories ul li a:hover, .gallery-categories ul li a:focus, .gallery-categories ul li a:active {
-	background-color: #01b1d7 !important;
-	border-color: #01b1d7 !important;
+	background-color: #3e7cc4 !important;
+	border-color: #3e7cc4 !important;
 	color: #fff !important;
 }
 
 .newsletter .newsletter-button {
-	background-color: #01b1d7;
-	border: 1px solid #01b1d7;
+	background-color: #3e7cc4;
+	border: 1px solid #3e7cc4;
 }
 
 .newsletter .newsletter-button:hover {
@@ -213,93 +213,93 @@ a:focus, a:active {
 }
 
 .switcher-box .open-switcher {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .nav-footer li a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .widget-list li .w-meta a:hover {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .reactions .col-reaction:hover .btn-reaction {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .reactions .progress-bar-vertical .progress-bar {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .reactions .btn-reaction-voted {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .poll .result .progress .progress-bar {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .profile-buttons ul li a:hover {
-	color: #01b1d7;
-	border-color: #01b1d7;
+	color: #3e7cc4;
+	border-color: #3e7cc4;
 }
 
 .comment-section .nav-tabs .active {
-	border-bottom: 2px solid #01b1d7;
+	border-bottom: 2px solid #3e7cc4;
 }
 
 .spinner > div {
-	background-color: #01b1d7;
+	background-color: #3e7cc4;
 }
 
 .cookies-warning a {
-	color: #01b1d7 !important;
+	color: #3e7cc4 !important;
 }
 
 .post-meta .post-meta-inner a:hover {
-	color: #01b1d7 !important;
+	color: #3e7cc4 !important;
 }
 
 .custom-checkbox:hover + label:before {
-	border-color: #01b1d7;
+	border-color: #3e7cc4;
 }
 
 .custom-checkbox:checked + label:before {
-	background: #01b1d7;
-	border-color: #01b1d7;
+	background: #3e7cc4;
+	border-color: #3e7cc4;
 }
 
 .custom-checkbox input:checked + .checkbox-icon {
-	background-color: #01b1d7;
-	border: 1px solid #01b1d7;
+	background-color: #3e7cc4;
+	border: 1px solid #3e7cc4;
 }
 
 .post-content .post-text a {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 .post-files .file button {
-	color: #01b1d7;
+	color: #3e7cc4;
 }
 
 @media (max-width: 768px) {
 
 	.pagination .page-previous a {
-		border: 1px solid #01b1d7 !important;
-		color: #01b1d7 !important;
+		border: 1px solid #3e7cc4 !important;
+		color: #3e7cc4 !important;
 		background-color: transparent !important;
 	}
 
 	.pagination .page-next a {
-		border: 1px solid #01b1d7 !important;
-		color: #01b1d7 !important;
+		border: 1px solid #3e7cc4 !important;
+		color: #3e7cc4 !important;
 		background-color: transparent !important;
 	}
 
 	.pagination > li > a, .pagination > li > span {
-		background-color: #01b1d7 !important;
-		border: 1px solid #01b1d7 !important;
+		background-color: #3e7cc4 !important;
+		border: 1px solid #3e7cc4 !important;
 		color: #fff !important;
 	}
 }
