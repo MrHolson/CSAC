@@ -165,7 +165,7 @@ header .side-menu .active, .white.btn:not(.btn-border), .white .btn:not(.btn-bor
 }
 
 .section-bg-color .advs-box-top-icon.boxed-inverse .icon, .section-bg-color .advs-box-top-icon .icon, .navbar-mini, .header-base:not(.bg-cover) {
-    background-color: #00b1d7;/* #F7F7F7 */
+    background-color: #3e7cc4;/* #F7F7F7 */
 }
 
 .navbar-default .navbar-nav > .active > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-nav > li:hover > a, .nav.inner > li, .box-transparent .overlaybox-inner, header .input-group-btn .btn, header .input-group-btn .btn:hover,
@@ -609,7 +609,7 @@ HEADER AND MENUS
         .navbar-mini:not(.hidden) + .navbar-main .navbar-header:after {
             position: absolute;
             content: '';
-            background-color: #00b1d7;
+            background-color: #3e7cc4;
             height: 90px;
             width: 60px;
             right: -10px;
