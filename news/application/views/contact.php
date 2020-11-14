@@ -78,14 +78,17 @@
                                 <p>Messagge</p>
                                 <textarea id="messagge" name="messagge" placeholder="" class="form-control form-value" required></textarea>
                                 <hr class="space s" />
-                                <button class="btn-sm btn" type="submit"><i class="fa fa-envelope-open-o"></i>Send messagge</button>
+                                <?php generate_recaptcha(); ?>
+                                <hr class="space s" />
+                                <div class="form-group">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox" class="checkbox_terms_conditions" required>
+                                            <span class="checkbox-icon"><i class="icon-check"></i></span>
+                                            <?php echo trans("terms_conditions_exp"); ?>&nbsp;<a href="<?php echo lang_base_url(); ?>terms-conditions" class="link-terms" target="_blank"><strong><?php echo trans("terms_conditions"); ?></strong></a>
+                                        </label>
+                                    </div>                                
+                                <button class="btn-sm btn" type="submit"><i class="fa fa-envelope-open-o"></i><?php echo html_escape(trans("submit")); ?></button>
                             </div>
-                        </div>
-                        <div class="success-box">
-                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
-                        </div>
-                        <div class="error-box">
-                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
                         </div>
                     </form>
                 </div>
