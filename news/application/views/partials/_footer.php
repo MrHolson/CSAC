@@ -1,225 +1,12 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 	
 
-	<!-- Start Footer Section -->
-    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
-    <footer class="footer-base" id="footer">
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 footer-center text-left">
-                        <img width="120" src="../images/logo.png" alt="" />
-                        <hr class="space m" />
-                        <p class="text-s">Collins Street West 8007, San Fransico, United States.</p>
-                        <div class="tag-row text-s">
-                            <span>support@company.com</span>
-                            <span>+02 3205550678</span>
-                        </div>
-                        <hr class="space m" />
-                        <div class="btn-group social-group btn-group-icons">
-                            <a target="_blank" href="#" data-social="share-facebook">
-                                <i class="fa fa-facebook text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-twitter">
-                                <i class="fa fa-twitter text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-google">
-                                <i class="fa fa-google-plus text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-linkedin">
-                                <i class="fa fa-linkedin text-xs circle"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 footer-left text-left">
-                        <div class="row">
-                            <div class="col-md-6 text-s">
-                                <h3>Menu</h3>
-                                <a href="#">Home</a><br />
-                                <a href="#">Contacts</a><br />
-                                <a href="#">Future projects</a><br />
-                                <a href="#">Locations</a><br />
-                                <a href="#">Latest news</a><br />
 
-                            </div>
-                            <div class="col-md-6 text-s">
-                                <h3>Pages</h3>
-                                <a href="#">Support</a><br />
-                                <a href="#">Terms of services</a><br />
-                                <a href="#">RSS Feeds</a><br />
-                                <a href="#">Partnerships</a><br />
-                                <a href="#">Latest news</a><br />
-                            </div>
-                        </div>
-                    </div>
-					<div class="col-sm-4 col-xs-12">
-					<div class="col-sm-12">
-						<div class="row">
-							<div class="footer-widget f-widget-follow">
-								<div class="col-sm-12">
-									<div class="row">
-										<h4 class="title"><?php echo html_escape(trans("social_media")); ?></h4>
-										<div class="title-line"></div>
-										<ul>
-											<?php $this->load->view("partials/_social_links"); ?>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- newsletter -->
-					<div class="col-sm-12">
-						<div class="row">
-							<p><?php echo html_escape(trans("newsletter_exp")); ?></p>
-							<?php echo form_open('home_controller/add_to_newsletter'); ?>
-							<div class="newsletter">
-								<div class="left">
-									<input type="email" name="email" id="newsletter_email" maxlength="199" placeholder="<?php echo html_escape(trans("email")); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
-								</div>
-								<div class="right">
-									<button type="submit" class="newsletter-button"><?php echo trans("subscribe"); ?></button>
-								</div>
-							</div>
-							<?php echo form_close(); ?>
-						</div>
-						<div class="row">
-							<p id="newsletter">
-								<?php
-								if ($this->session->flashdata('news_error')):
-									echo '<span class="text-danger">' . $this->session->flashdata('news_error') . '</span>';
-								endif;
-
-								if ($this->session->flashdata('news_success')):
-									echo '<span class="text-success">' . $this->session->flashdata('news_success') . '</span>';
-								endif;
-								?>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-sm-12">
-						<div class="row">
-							<div class="languages-dropdown">
-								<?php if ($general_settings->multilingual_system == 1 && count($languages) > 1): ?>
-									<div class="dropdown">
-										<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-											<i class="icon-language"></i><?php echo html_escape($selected_lang->name); ?>&nbsp;<span class="icon-arrow-down"></span>
-										</button>
-										<ul class="dropdown-menu">
-											<?php foreach ($languages as $language):
-												$lang_url = base_url() . $language->short_form . "/";
-												if ($language->id == $this->general_settings->site_lang) {
-													$lang_url = base_url();
-												} ?>
-												<li><a href="<?php echo $lang_url; ?>" class="<?php echo ($language->id == $selected_lang->id) ? 'selected' : ''; ?>"><?php echo $language->name; ?></a></li>
-											<?php endforeach; ?>
-										</ul>
-									</div>
-								<?php endif; ?>
-							</div>
-						</div>
-					</div>
-				</div>
-                </div>
-            </div>
-			<div class="footer-bottom">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="footer-bottom-left">
-							<p><?php echo $settings->copyright; ?></p>
-						</div>
-						<div class="footer-bottom-right">
-							<ul class="nav-footer">
-								<?php foreach ($main_menu as $menu_item): ?>
-									<?php if ($menu_item->item_location == "footer"): ?>
-										<li>
-											<a href="<?php echo generate_menu_item_url($menu_item); ?>"><?php echo html_escape($menu_item->item_name); ?> </a>
-										</li>
-									<?php endif; ?>
-								<?php endforeach; ?>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- .row -->
-			</div>
-        </div>
-    </footer>
-	<!-- End Footer Section -->
-
-
-
-
-
-	<footer class="footer-base bg-white">
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 footer-center text-left">
-                        <img width="120" src="../images/logo.png" alt="" />
-                        <hr class="space m" />
-                        <p class="text-s">Collins Street West 8007, San Fransico, United States.</p>
-                        <div class="tag-row text-s">
-                            <span>support@company.com</span>
-                            <span>+02 3205550678</span>
-                        </div>
-                        <hr class="space m" />
-                        <div class="btn-group social-group btn-group-icons">
-                            <a target="_blank" href="#" data-social="share-facebook">
-                                <i class="fa fa-facebook text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-twitter">
-                                <i class="fa fa-twitter text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-google">
-                                <i class="fa fa-google-plus text-xs circle"></i>
-                            </a>
-                            <a target="_blank" href="#" data-social="share-linkedin">
-                                <i class="fa fa-linkedin text-xs circle"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 footer-left text-left">
-                        <div class="row">
-                            <div class="col-md-6 text-s">
-                                <h3>Menu</h3>
-                                <a href="#">Home</a><br />
-                                <a href="#">Contacts</a><br />
-                                <a href="#">Future projects</a><br />
-                                <a href="#">Locations</a><br />
-                                <a href="#">Latest news</a><br />
-
-                            </div>
-                            <div class="col-md-6 text-s">
-                                <h3>Pages</h3>
-                                <a href="#">Support</a><br />
-                                <a href="#">Terms of services</a><br />
-                                <a href="#">RSS Feeds</a><br />
-                                <a href="#">Partnerships</a><br />
-                                <a href="#">Latest news</a><br />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 footer-left text-left">
-                        <h3>You can trust us</h3>
-                        <p class="text-s">
-                            Utenim ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo.
-                        </p>
-                        <hr class="space xs" />
-                        <img src="../images/cards-icon.png" alt="" />
-                    </div>
-                </div>
-            </div>
-            <div class="row copy-row">
-                <div class="col-md-12 copy-text">
-                    © 2018 Yellow Business - Multipurpose & Construction Template Handmade by <a href="http://schiocco.io/">schiocco.io</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+<style>
+	footer a, footer p{
+		color:#fff!important;
+	}
+</style>
 
 	<footer id="footer" >
 		<div class="content">
@@ -235,10 +22,31 @@
 									<p>
 										<?php echo html_escape($settings->about_footer); ?>
 									</p>
+									<div class="col-md-6 col-sm-12">
+										<ul>
+											<li><a href="<?php echo base_url(); ?>">Accueil</a> </li>
+											<li><a href="<?php echo base_url(); ?>actualites">Actualités</a> </li>
+											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
+											<li><a href="<?php echo base_url(); ?>presse ">Presse </a> </li>
+											<li><a href="<?php echo base_url(); ?>services-techniques">Services Techniques</a> </li>
+										</ul>
+									</div>
+									<div class="col-md-6 col-sm-12">
+										<ul>
+											<li><a href="<?php echo base_url(); ?>">Accueil</a> </li>
+											<li><a href="<?php echo base_url(); ?>actualites">Actualités</a> </li>
+											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
+											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
+										</ul>
+									</div>
+
 								</div>
 							</div>
 						</div>
+
+						
 					</div><!-- /.col-sm-4 -->
+
 
 					<!-- footer widget random posts-->
 					<div class="col-sm-4 col-xs-12">

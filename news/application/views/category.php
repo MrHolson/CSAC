@@ -5,7 +5,7 @@
                 <div class="col-md-9">
                     <div class="title-base text-left">
                         <h1><?php echo html_escape($title); ?></h1>
-                        <p>L<?php echo html_escape($description); ?></p>
+                        <p><?php echo html_escape($description); ?></p>
                     </div>
                 </div>
                 <div class="col-md-3">
