@@ -138,7 +138,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="footer-bottom-left">
-								<p><?php echo $settings->copyright; ?><br/>Powered by <a href="https://bit.ly/Holduix">Holduix</a></p>
+								<p><?php echo $settings->copyright; ?></p>
+								<span>Powered by <a href="https://bit.ly/Holduix">Holduix</a></span>
 							</div>
 							<div class="footer-bottom-right">
 								<ul class="nav-footer">
