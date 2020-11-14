@@ -7,7 +7,7 @@
 	<div class="pull-right hidden-xs">
 		<strong style="font-weight: 600;"><?php echo $settings->copyright; ?>&nbsp;</strong>
 	</div>
-	<b>Version</b> 3.9
+	Powered by <b>Holduix</b>
 </footer>
 </div><!-- ./wrapper -->
 <!-- jQuery UI 1.11.4 -->
