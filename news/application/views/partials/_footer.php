@@ -8,6 +8,7 @@
 	}
 </style>
 
+<i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
 	<footer id="footer" >
 		<div class="content">
 			<div class="container ">
@@ -22,21 +23,22 @@
 									<p>
 										<?php echo html_escape($settings->about_footer); ?>
 									</p>
-									<div class="col-md-6 col-sm-12">
+									<div class="col-md-7 col-sm-12">
 										<ul>
 											<li><a href="<?php echo base_url(); ?>">Accueil</a> </li>
 											<li><a href="<?php echo base_url(); ?>actualites">Actualités</a> </li>
 											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
-											<li><a href="<?php echo base_url(); ?>presse ">Presse </a> </li>
-											<li><a href="<?php echo base_url(); ?>services-techniques">Services Techniques</a> </li>
+											<li><a href="<?php echo base_url(); ?>communiques/presse ">Presse </a> </li>
+											<li><a href="<?php echo base_url(); ?>communiques/communiques-officiels">Officiels</a> </li>
+											<li><a href="<?php echo base_url(); ?>members">Membres du CSAC</a> </li>
 										</ul>
 									</div>
-									<div class="col-md-6 col-sm-12">
+									<div class="col-md-5 col-sm-12">
 										<ul>
-											<li><a href="<?php echo base_url(); ?>">Accueil</a> </li>
-											<li><a href="<?php echo base_url(); ?>actualites">Actualités</a> </li>
-											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
-											<li><a href="<?php echo base_url(); ?>blog">Nos articles</a> </li>
+											<li><a href="<?php echo base_url(); ?>contact">Contact</a> </li>
+											<li><a href="<?php echo base_url(); ?>gallery">Multimédias</a> </li>
+											<li><a href="<?php echo base_url(); ?>documents/constitution">Constitution </a> </li>
+											<li><a href="<?php echo base_url(); ?>communiques">Communiqués</a> </li>
 										</ul>
 									</div>
 
@@ -140,13 +142,10 @@
 							</div>
 							<div class="footer-bottom-right">
 								<ul class="nav-footer">
-									<?php foreach ($main_menu as $menu_item): ?>
-										<?php if ($menu_item->item_location == "footer"): ?>
-											<li>
-												<a href="<?php echo generate_menu_item_url($menu_item); ?>"><?php echo html_escape($menu_item->item_name); ?> </a>
-											</li>
-										<?php endif; ?>
-									<?php endforeach; ?>
+									<li><a href="<?php echo base_url(); ?>faq">Faq</a></li>									
+									<li><a href="<?php echo base_url(); ?>about-us">A propos du CSAC</a></li>									
+									<li><a href="<?php echo base_url(); ?>services">Services du CSAC</a></li>									
+									<li><a href="<?php echo base_url(); ?>terms-conditions">Termes et Conditions</a></li>									
 								</ul>
 							</div>
 						</div>

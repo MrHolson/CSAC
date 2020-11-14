@@ -289,64 +289,45 @@
         </div>
     </div>
     <div class="section-empty">
-        <div class="content container">
+        <div class="container content">
             <div class="row">
-                <div class="col-md-8 col-sm-12">
+                <div class="col-md-4">
                     <div class="title-base text-left">
                         <hr />
-                        <h2>Learning and development</h2>
-                        <p>Lorem ipsum dolor sit ameto</p>
+                        <h2>Something about us</h2>
+                        <p>The company</p>
                     </div>
+                    <a class="img-box lightbox" href="./images/image-1.jpg" data-lightbox-anima="fade-left">
+                        <img src="./images/image-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-8">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Tempora sociosqu congue recusandae provide ntonoto commodi! Minus, repellat molestiae, aspernatur quaerat tincidunt itaque inceptoso.
+                        Ridiculus? Nam odit gravida, ornare? Hic hymenaeos illum? Congue nisi sapiente duis recusandae scelerisque ullamco pede proin hendrerit quia,
+                        massa. Facilisi odio laboriosam. Ultricies cras maecenas nisl pariatur, ab amet morbi accumsan. Sociis repellat.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Tristique nunc harum at torquent massa ullam officiis erat tristique? Et sem nam modi ullam dolor eos repudiandae placerat deleniti!
+                        Morbi accusamus fusce ut, etiam posuere aliquet soluta incididunt quaerat voluptas hic conubia turpis neque, laoreet! Deleniti.
                     </p>
                 </div>
-                <div class="col-md-4 col-sm-12 boxed-inverse shadow-1 text-left" data-anima="fade-right">
-                    <h4 class="text-l">Free report</h4>
-                    <p>Get your free report within 2 working days.</p>
-                    <hr class="space s" />
-                    <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post" data-email="federico@pixor.it">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
-                            </div>
-                        </div>
-                        <hr class="space xs" />
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
-                                <hr class="space xs" />
-                                <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
-                                <hr class="space s" />
-                                <button class="btn-sm btn" type="submit"><i class="fa-envelope-open-o fa"></i>Send messagge</button>
-                            </div>
-                        </div>
-                        <div class="success-box">
-                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
-                        </div>
-                        <div class="error-box">
-                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
-                        </div>
-                    </form>
+                <div class="col-md-4">
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet aco.
+
+                        Tristique nunc harum at torquent massa ullam officiis erat tristique? Et sem nam modi ullam dolor eos repudiandae placerat deleniti! Morbi accusamus fusce ut, etiam posuere aliquet soluta incididunt quaerat voluptas hic conubia turpis neque, laoreet! Deleniti architecto lectus
+                        ullamco delectus torquent? Veritatis mino luctus placerat scelerisque euismo.
+                    </p>
+                    <p>
+                        Hic hymenaeos illum? Congue nisi sapiente duis recusandae scelerisque ullamco pede proin hendrerit quia,
+                        massa. Facilisi odio laboriosam. Ultricies.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+   
     <div class="section-bg-image parallax-window" data-natural-height="650" data-natural-width="1980" data-parallax="scroll" data-image-src="./images/bg-2.jpg">
         <div class="container content">
             <div class="row proporzional-row">
