@@ -63,16 +63,12 @@
                     <?php echo form_open('home_controller/contact_post', ['id' => 'form_validate', 'class' => 'validate_terms form-box form-ajax']); ?>
                         <div class="row">
                             <div class="col-md-6">
-                                <p><?php echo trans("name"); ?></p>
-                                <input id="name" class="form-control form-input form-value" name="name"
-                                               placeholder="<?php echo trans("name"); ?>" maxlength="199" minlength="1"
-                                               pattern=".*\S+.*" value="<?php echo old('name'); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
+                                <p>Name</p>
+                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
                             </div>
                             <div class="col-md-6">
                                 <p>Email</p>
-                                <input id="email" type="email" class="form-control form-input form-value" name="email" maxlength="199"
-                                               placeholder="<?php echo trans("email"); ?>"
-                                               value="<?php echo old('email'); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; >
+                                <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
                             </div>
                         </div>
                         <hr class="space xs" />
