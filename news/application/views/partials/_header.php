@@ -13,10 +13,9 @@
 		<meta name="revisit-after" content="1 Days" />
 		<link rel="apple-touch-icon" href="<?php echo base_url(); ?>assets/img/apple-touch-icon.png" />
 		<meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/img/favicon.png" />
-		<meta name="msapplication-TileColor" content="#429cd6" />
-		<meta name="theme-color" content="#429cd6" />
-		<meta name="primary-color" content="#429cd6" />
-		<meta name="secondary-color" content="#f4cc21" />
+		<meta name="msapplication-TileColor" content="#3e7cc4" />
+		<meta name="theme-color" content="#3e7cc4" />
+		<meta name="primary-color" content="#3e7cc4" />
 		<meta http-equiv="imagetoolbar" content="no" />		
 		<meta property="og:locale" content="<?php echo $this->selected_lang->language_code ?>"/>
 		<meta property="og:site_name" content="<?php echo $settings->application_name; ?>"/>
