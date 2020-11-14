@@ -60,11 +60,12 @@
                     </p>
                     <hr class="space s" />
                     <?php $this->load->view('partials/_messages'); ?>
-                    <?php echo form_open('home_controller/contact_post', ['id' => 'form_validate', 'class' => 'validate_terms form-box form-ajax']); ?>
+                    <?php echo form_open('home_controller/contact_post', ['id' => 'form_validate', 'class' => 'validate_terms form-box ']); ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <p>Name</p>
-                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
+                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" placeholder="<?php echo trans("name"); ?>" maxlength="199" minlength="1"
+                                               pattern=".*\S+.*" value="<?php echo old('name'); ?>" required <?php echo ($rtl == true) ? 'dir="rtl"' : ''; ?>>
                             </div>
                             <div class="col-md-6">
                                 <p>Email</p>
